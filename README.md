@@ -11,7 +11,7 @@ Within this repository, we distribute a whole-body PBPK model of alfentanil, tha
 
 The PK-Sim project file contains simulations of all published clinical studies employed during model establishment, including the respective observed data digitized from literature reports. For further details, quantitative model evaluation, sensitivity analysis and extensive documentation please refer to [[1](#reference)]. 
 
-
+The model is also suitable for pediatric translations with regard to CYP3A4 ontogeny.
 
 ## Code of conduct
 Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists etc...) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
