@@ -31026,7 +31026,7 @@
       ]
     },
     {
-      "Name": "Meistelman 1987 ped. 8",
+      "Name": "Meistelman 1987 ped.8",
       "Model": "4Comp",
       "Solver": {},
       "OutputSchema": [
@@ -31145,9 +31145,9 @@
           ],
           "Curves": [
             {
-              "Name": "Meistelman 1987 ped. 8-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Meistelman 1987 ped.8-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Meistelman 1987 ped. 8|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "Y": "Meistelman 1987 ped.8|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "255, 0, 0",
                 "LegendIndex": 1
@@ -34612,7 +34612,7 @@
             "Meistelman 1987 ped.5",
             "Meistelman 1987 ped.6",
             "Meistelman 1987 ped.7",
-            "Meistelman 1987 ped. 8",
+            "Meistelman 1987 ped.8",
             "Meistelman 1987 children"
           ]
         }
