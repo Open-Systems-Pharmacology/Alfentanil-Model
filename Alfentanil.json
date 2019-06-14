@@ -26751,7 +26751,11 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nden Holländer 1992 ind 1\n2019-06-14 13:23"
+=======
+          "OriginText": "Alfentanil\nden Holländer 1992 ind C2\n2019-06-13 11:23"
+>>>>>>> a959833ae16488d85c93b8f061a44ea6872884f5
         }
       ]
     },
@@ -26875,7 +26879,11 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nden Holländer 1992 ind 2\n2019-06-14 13:23"
+=======
+          "OriginText": "Alfentanil\nden Holländer 1992 ind C3\n2019-06-13 11:24"
+>>>>>>> a959833ae16488d85c93b8f061a44ea6872884f5
         }
       ]
     },
@@ -27013,6 +27021,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "FontAndSize": {
             "ChartWidth": 400,
             "ChartHeight": 400,
@@ -27027,6 +27036,9 @@
             }
           },
           "OriginText": "Alfentanil\nden Holländer 1992 ind 3\n2019-06-14 13:23"
+=======
+          "OriginText": "Alfentanil\nden Holländer 1992 ind C4\n2019-06-13 11:24"
+>>>>>>> a959833ae16488d85c93b8f061a44ea6872884f5
         }
       ]
     },
@@ -27150,7 +27162,11 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nden Holländer 1992 ind 4\n2019-06-14 13:23"
+=======
+          "OriginText": "Alfentanil\nden Holländer 1992 ind C5\n2019-06-13 11:25"
+>>>>>>> a959833ae16488d85c93b8f061a44ea6872884f5
         }
       ]
     },
@@ -27274,7 +27290,11 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nden Holländer 1992 ind 5\n2019-06-14 13:23"
+=======
+          "OriginText": "Alfentanil\nden Holländer 1992 ind C6\n2019-06-13 11:25"
+>>>>>>> a959833ae16488d85c93b8f061a44ea6872884f5
         }
       ]
     },
@@ -27398,7 +27418,11 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nden Holländer 1992 ind C2\n2019-06-14 13:23"
+=======
+          "OriginText": "Alfentanil\nden Holländer 1992 ind 1\n2019-06-13 15:05"
+>>>>>>> a959833ae16488d85c93b8f061a44ea6872884f5
         }
       ]
     },
@@ -27522,7 +27546,11 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nden Holländer 1992 ind C3\n2019-06-14 13:23"
+=======
+          "OriginText": "Alfentanil\nden Holländer 1992 ind 2\n2019-06-13 15:05"
+>>>>>>> a959833ae16488d85c93b8f061a44ea6872884f5
         }
       ]
     },
@@ -27646,7 +27674,24 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nden Holländer 1992 ind C4\n2019-06-14 13:24"
+=======
+          "FontAndSize": {
+            "ChartWidth": 400,
+            "ChartHeight": 400,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "OriginText": "Alfentanil\nden Holländer 1992 ind 3\n2019-06-13 11:22"
+>>>>>>> a959833ae16488d85c93b8f061a44ea6872884f5
         }
       ]
     },
@@ -27770,7 +27815,11 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nden Holländer 1992 ind C5\n2019-06-14 13:24"
+=======
+          "OriginText": "Alfentanil\nden Holländer 1992 ind 4\n2019-06-13 11:22"
+>>>>>>> a959833ae16488d85c93b8f061a44ea6872884f5
         }
       ]
     },
@@ -27894,7 +27943,11 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nden Holländer 1992 ind C6\n2019-06-14 13:24"
+=======
+          "OriginText": "Alfentanil\nden Holländer 1992 ind 5\n2019-06-13 11:23"
+>>>>>>> a959833ae16488d85c93b8f061a44ea6872884f5
         }
       ]
     },
