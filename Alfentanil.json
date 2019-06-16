@@ -2,546 +2,6 @@
   "Version": 75,
   "Individuals": [
     {
-      "Name": "Standard European Male for DDI",
-      "Seed": 616745943,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "European_ICRP_2002",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 30.0,
-          "Unit": "year(s)"
-        }
-      },
-      "Molecules": [
-        {
-          "Name": "CYP3A4",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.0041682898325
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.00078691079081
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0053603428126
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.00042695753798
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0727697702
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP3A4"
-          },
-          "Parameters": [
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 72.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "CYP3A5",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.0041810344828
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.1681034483
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.1620689655
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.5379310345
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP3A5"
-          }
-        },
-        {
-          "Name": "AADAC",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "BloodCells",
-              "Value": 3.9102564103E-05
-            },
-            {
-              "Name": "Plasma",
-              "Value": 3.9102564103E-05
-            },
-            {
-              "Name": "Bone",
-              "Value": 4.8717948718E-05
-            },
-            {
-              "Name": "Brain",
-              "Value": 3.9743589744E-05
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.0011923076923
-            },
-            {
-              "Name": "Heart",
-              "Value": 0.0026602564103
-            },
-            {
-              "Name": "Kidney",
-              "Value": 5.7051282051E-05
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.0269230769
-            },
-            {
-              "Name": "Muscle",
-              "Value": 0.00020833333333
-            },
-            {
-              "Name": "Pancreas",
-              "Value": 0.1474358974
-            },
-            {
-              "Name": "Spleen",
-              "Value": 0.00037115384615
-            },
-            {
-              "Name": "Stomach",
-              "Value": 0.0775641026
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "LargeIntestine",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "ColonAscendens",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "ColonTransversum",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "ColonDescendens",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "ColonSigmoid",
-              "Value": 0.00010384615385
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 72.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "CYP2C9",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.00039687350455
-            },
-            {
-              "Name": "Gonads",
-              "Value": 4.5940341362E-05
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0018822778753
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.0002131121391
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.1199553358
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP2C9"
-          }
-        },
-        {
-          "Name": "CYP1A2",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Gonads",
-              "Value": 0.00029559748428
-            },
-            {
-              "Name": "Kidney",
-              "Value": 4.4025157233E-06
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 2.4947589099E-05
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP1A2"
-          }
-        },
-        {
-          "Name": "ABCB1",
-          "Type": "Transporter",
-          "TransportType": "Efflux",
-          "Expression": [
-            {
-              "Name": "Bone",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0341950646
-            },
-            {
-              "Name": "Brain",
-              "MembraneLocation": "BloodBrainBarrier",
-              "Value": 0.1072855464
-            },
-            {
-              "Name": "Gonads",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.024559342
-            },
-            {
-              "Name": "Heart",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.059106933
-            },
-            {
-              "Name": "Kidney",
-              "MembraneLocation": "Apical",
-              "Value": 1.0
-            },
-            {
-              "Name": "Periportal",
-              "MembraneLocation": "Apical",
-              "Value": 0.2702702703
-            },
-            {
-              "Name": "Pericentral",
-              "MembraneLocation": "Apical",
-              "Value": 0.2702702703
-            },
-            {
-              "Name": "Lung",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0927144536
-            },
-            {
-              "Name": "Muscle",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0180963572
-            },
-            {
-              "Name": "Pancreas",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0200940071
-            },
-            {
-              "Name": "Spleen",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.1047003525
-            },
-            {
-              "Name": "Stomach",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0367802585
-            },
-            {
-              "Name": "SmallIntestine",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "LargeIntestine",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "Duodenum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "UpperJejunum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "LowerJejunum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "UpperIleum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "LowerIleum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "ColonAscendens",
-              "MembraneLocation": "Apical",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "ColonTransversum",
-              "MembraneLocation": "Apical",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "ColonDescendens",
-              "MembraneLocation": "Apical",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "ColonSigmoid",
-              "MembraneLocation": "Apical",
-              "Value": 0.1562867215
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 72.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "OATP1B1",
-          "Type": "Transporter",
-          "TransportType": "Influx",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "MembraneLocation": "BloodBrainBarrier",
-              "Value": 0.00014166666667
-            },
-            {
-              "Name": "Gonads",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0141666667
-            },
-            {
-              "Name": "Heart",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0008253968254
-            },
-            {
-              "Name": "Periportal",
-              "MembraneLocation": "Basolateral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "MembraneLocation": "Basolateral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "MembraneLocation": "Basolateral",
-              "Value": 4.0079365079E-05
-            },
-            {
-              "Name": "Muscle",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.00064682539683
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 109.6,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "Name": "den Holländer 1992 ind C1 male 1.5y 6.5kg not simulated (bmi out of range)",
       "Seed": 619284984,
       "OriginData": {
@@ -562,6 +22,50 @@
           "Description": "den Holländer 1992"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -1111,6 +615,50 @@
           "Description": "den Holländer 1992"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -1660,6 +1208,50 @@
           "Description": "den Holländer 1992"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -2209,6 +1801,50 @@
           "Description": "den Holländer 1992"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -2758,6 +2394,50 @@
           "Description": "den Holländer 1992"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -3307,6 +2987,50 @@
           "Description": "den Holländer 1992"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -3856,6 +3580,50 @@
           "Description": "den Holländer 1992"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -4405,6 +4173,50 @@
           "Description": "den Holländer 1992"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -4954,6 +4766,50 @@
           "Description": "den Holländer 1992"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -5788,6 +5644,50 @@
           "Description": "den Holländer 1992"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -6337,6 +6237,50 @@
           "Description": "den Holländer 1992"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -6882,6 +6826,50 @@
           "Description": "den Holländer 1992"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -7431,6 +7419,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -7494,7 +7526,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -7980,6 +8012,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -8043,7 +8119,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -8529,6 +8605,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -8592,7 +8712,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -9078,6 +9198,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -9141,7 +9305,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -9623,6 +9787,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -9686,7 +9894,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -10172,6 +10380,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -10235,7 +10487,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -10721,6 +10973,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -10784,7 +11080,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -11270,6 +11566,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -11333,7 +11673,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -11819,6 +12159,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -11882,7 +12266,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -12368,6 +12752,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -12431,7 +12859,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -12917,6 +13345,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -12980,7 +13452,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -13466,6 +13938,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -13529,7 +14045,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -14015,6 +14531,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -14078,7 +14638,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -14564,6 +15124,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -14627,7 +15231,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -15113,6 +15717,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -15176,7 +15824,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -15662,6 +16310,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -15725,7 +16417,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -16211,6 +16903,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -16274,7 +17010,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -16760,6 +17496,50 @@
           "Description": "Goreski 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -16823,7 +17603,7 @@
           "Parameters": [
             {
               "Name": "t1/2 (liver)",
-              "Value": 72.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -17309,6 +18089,50 @@
           "Description": "Meistelman 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -17858,6 +18682,50 @@
           "Description": "Meistelman 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -18407,6 +19275,50 @@
           "Description": "Meistelman 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -18956,6 +19868,50 @@
           "Description": "Meistelman 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -19505,6 +20461,50 @@
           "Description": "Meistelman 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -20054,6 +21054,50 @@
           "Description": "Meistelman 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -20603,6 +21647,50 @@
           "Description": "Meistelman 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -21152,6 +22240,50 @@
           "Description": "Meistelman 1987"
         }
       },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP3A4",
@@ -23267,725 +24399,1783 @@
           ]
         }
       ]
-    }
-  ],
-  "Populations": [
+    },
     {
-      "Name": "Meistelman 1987 adults",
-      "Seed": 621489824,
-      "Settings": {
-        "NumberOfIndividuals": 500,
-        "ProportionOfFemales": 50,
+      "Name": "Goreski 1987 0.52y",
+      "Seed": 439909855,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
         "Age": {
-          "Min": 27.0,
-          "Max": 35.0,
+          "Value": 0.52,
           "Unit": "year(s)"
         },
         "Weight": {
-          "Min": 55.0,
-          "Max": 66.0,
+          "Value": 7.38,
           "Unit": "kg"
         },
-        "Individual": {
-          "Name": "Standard European Male for DDI",
-          "Seed": 616745943,
-          "OriginData": {
-            "CalculationMethods": [
-              "SurfaceAreaPlsInt_VAR1",
-              "Body surface area - Mosteller"
-            ],
-            "Species": "Human",
-            "Population": "European_ICRP_2002",
-            "Gender": "MALE",
-            "Age": {
-              "Value": 30.0,
-              "Unit": "year(s)"
-            }
-          },
-          "Molecules": [
-            {
-              "Name": "CYP3A4",
-              "Type": "Enzyme",
-              "MembraneLocation": "Apical",
-              "TissueLocation": "Intracellular",
-              "IntracellularVascularEndoLocation": "Endosomal",
-              "Expression": [
-                {
-                  "Name": "Brain",
-                  "Value": 0.0041682898325
-                },
-                {
-                  "Name": "Gonads",
-                  "Value": 0.00078691079081
-                },
-                {
-                  "Name": "Kidney",
-                  "Value": 0.0053603428126
-                },
-                {
-                  "Name": "Periportal",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Pericentral",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Lung",
-                  "Value": 0.00042695753798
-                },
-                {
-                  "Name": "SmallIntestine",
-                  "Value": 0.0727697702
-                },
-                {
-                  "Name": "Duodenum",
-                  "Value": 0.0727697702
-                },
-                {
-                  "Name": "UpperJejunum",
-                  "Value": 0.0727697702
-                },
-                {
-                  "Name": "LowerJejunum",
-                  "Value": 0.0727697702
-                },
-                {
-                  "Name": "UpperIleum",
-                  "Value": 0.0727697702
-                },
-                {
-                  "Name": "LowerIleum",
-                  "Value": 0.0727697702
-                }
-              ],
-              "Ontogeny": {
-                "Name": "CYP3A4"
-              },
-              "Parameters": [
-                {
-                  "Name": "t1/2 (liver)",
-                  "Value": 72.0,
-                  "Unit": "h",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
-              ]
-            },
-            {
-              "Name": "CYP3A5",
-              "Type": "Enzyme",
-              "MembraneLocation": "Apical",
-              "TissueLocation": "Intracellular",
-              "IntracellularVascularEndoLocation": "Endosomal",
-              "Expression": [
-                {
-                  "Name": "Brain",
-                  "Value": 0.0041810344828
-                },
-                {
-                  "Name": "Kidney",
-                  "Value": 0.1681034483
-                },
-                {
-                  "Name": "Periportal",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Pericentral",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Lung",
-                  "Value": 0.1620689655
-                },
-                {
-                  "Name": "SmallIntestine",
-                  "Value": 0.5379310345
-                },
-                {
-                  "Name": "Duodenum",
-                  "Value": 0.5379310345
-                },
-                {
-                  "Name": "UpperJejunum",
-                  "Value": 0.5379310345
-                },
-                {
-                  "Name": "LowerJejunum",
-                  "Value": 0.5379310345
-                },
-                {
-                  "Name": "UpperIleum",
-                  "Value": 0.5379310345
-                },
-                {
-                  "Name": "LowerIleum",
-                  "Value": 0.5379310345
-                }
-              ],
-              "Ontogeny": {
-                "Name": "CYP3A5"
-              }
-            },
-            {
-              "Name": "AADAC",
-              "Type": "Enzyme",
-              "MembraneLocation": "Apical",
-              "TissueLocation": "Intracellular",
-              "IntracellularVascularEndoLocation": "Endosomal",
-              "Expression": [
-                {
-                  "Name": "BloodCells",
-                  "Value": 3.9102564103E-05
-                },
-                {
-                  "Name": "Plasma",
-                  "Value": 3.9102564103E-05
-                },
-                {
-                  "Name": "Bone",
-                  "Value": 4.8717948718E-05
-                },
-                {
-                  "Name": "Brain",
-                  "Value": 3.9743589744E-05
-                },
-                {
-                  "Name": "Gonads",
-                  "Value": 0.0011923076923
-                },
-                {
-                  "Name": "Heart",
-                  "Value": 0.0026602564103
-                },
-                {
-                  "Name": "Kidney",
-                  "Value": 5.7051282051E-05
-                },
-                {
-                  "Name": "Periportal",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Pericentral",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Lung",
-                  "Value": 0.0269230769
-                },
-                {
-                  "Name": "Muscle",
-                  "Value": 0.00020833333333
-                },
-                {
-                  "Name": "Pancreas",
-                  "Value": 0.1474358974
-                },
-                {
-                  "Name": "Spleen",
-                  "Value": 0.00037115384615
-                },
-                {
-                  "Name": "Stomach",
-                  "Value": 0.0775641026
-                },
-                {
-                  "Name": "SmallIntestine",
-                  "Value": 0.2544871795
-                },
-                {
-                  "Name": "LargeIntestine",
-                  "Value": 0.00010384615385
-                },
-                {
-                  "Name": "Duodenum",
-                  "Value": 0.2544871795
-                },
-                {
-                  "Name": "UpperJejunum",
-                  "Value": 0.2544871795
-                },
-                {
-                  "Name": "LowerJejunum",
-                  "Value": 0.2544871795
-                },
-                {
-                  "Name": "UpperIleum",
-                  "Value": 0.2544871795
-                },
-                {
-                  "Name": "LowerIleum",
-                  "Value": 0.2544871795
-                },
-                {
-                  "Name": "ColonAscendens",
-                  "Value": 0.00010384615385
-                },
-                {
-                  "Name": "ColonTransversum",
-                  "Value": 0.00010384615385
-                },
-                {
-                  "Name": "ColonDescendens",
-                  "Value": 0.00010384615385
-                },
-                {
-                  "Name": "ColonSigmoid",
-                  "Value": 0.00010384615385
-                }
-              ],
-              "Parameters": [
-                {
-                  "Name": "t1/2 (liver)",
-                  "Value": 72.0,
-                  "Unit": "h",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
-              ]
-            },
-            {
-              "Name": "CYP2C9",
-              "Type": "Enzyme",
-              "MembraneLocation": "Apical",
-              "TissueLocation": "Intracellular",
-              "IntracellularVascularEndoLocation": "Endosomal",
-              "Expression": [
-                {
-                  "Name": "Brain",
-                  "Value": 0.00039687350455
-                },
-                {
-                  "Name": "Gonads",
-                  "Value": 4.5940341362E-05
-                },
-                {
-                  "Name": "Kidney",
-                  "Value": 0.0018822778753
-                },
-                {
-                  "Name": "Periportal",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Pericentral",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Lung",
-                  "Value": 0.0002131121391
-                },
-                {
-                  "Name": "SmallIntestine",
-                  "Value": 0.1199553358
-                },
-                {
-                  "Name": "Duodenum",
-                  "Value": 0.1199553358
-                },
-                {
-                  "Name": "UpperJejunum",
-                  "Value": 0.1199553358
-                },
-                {
-                  "Name": "LowerJejunum",
-                  "Value": 0.1199553358
-                },
-                {
-                  "Name": "UpperIleum",
-                  "Value": 0.1199553358
-                },
-                {
-                  "Name": "LowerIleum",
-                  "Value": 0.1199553358
-                }
-              ],
-              "Ontogeny": {
-                "Name": "CYP2C9"
-              }
-            },
-            {
-              "Name": "CYP1A2",
-              "Type": "Enzyme",
-              "MembraneLocation": "Apical",
-              "TissueLocation": "Intracellular",
-              "IntracellularVascularEndoLocation": "Endosomal",
-              "Expression": [
-                {
-                  "Name": "Gonads",
-                  "Value": 0.00029559748428
-                },
-                {
-                  "Name": "Kidney",
-                  "Value": 4.4025157233E-06
-                },
-                {
-                  "Name": "Periportal",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Pericentral",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Lung",
-                  "Value": 2.4947589099E-05
-                }
-              ],
-              "Ontogeny": {
-                "Name": "CYP1A2"
-              }
-            },
-            {
-              "Name": "ABCB1",
-              "Type": "Transporter",
-              "TransportType": "Efflux",
-              "Expression": [
-                {
-                  "Name": "Bone",
-                  "MembraneLocation": "Basolateral",
-                  "Value": 0.0341950646
-                },
-                {
-                  "Name": "Brain",
-                  "MembraneLocation": "BloodBrainBarrier",
-                  "Value": 0.1072855464
-                },
-                {
-                  "Name": "Gonads",
-                  "MembraneLocation": "Basolateral",
-                  "Value": 0.024559342
-                },
-                {
-                  "Name": "Heart",
-                  "MembraneLocation": "Basolateral",
-                  "Value": 0.059106933
-                },
-                {
-                  "Name": "Kidney",
-                  "MembraneLocation": "Apical",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Periportal",
-                  "MembraneLocation": "Apical",
-                  "Value": 0.2702702703
-                },
-                {
-                  "Name": "Pericentral",
-                  "MembraneLocation": "Apical",
-                  "Value": 0.2702702703
-                },
-                {
-                  "Name": "Lung",
-                  "MembraneLocation": "Basolateral",
-                  "Value": 0.0927144536
-                },
-                {
-                  "Name": "Muscle",
-                  "MembraneLocation": "Basolateral",
-                  "Value": 0.0180963572
-                },
-                {
-                  "Name": "Pancreas",
-                  "MembraneLocation": "Basolateral",
-                  "Value": 0.0200940071
-                },
-                {
-                  "Name": "Spleen",
-                  "MembraneLocation": "Basolateral",
-                  "Value": 0.1047003525
-                },
-                {
-                  "Name": "Stomach",
-                  "MembraneLocation": "Basolateral",
-                  "Value": 0.0367802585
-                },
-                {
-                  "Name": "SmallIntestine",
-                  "MembraneLocation": "Basolateral",
-                  "Value": 0.3960047004
-                },
-                {
-                  "Name": "LargeIntestine",
-                  "MembraneLocation": "Basolateral",
-                  "Value": 0.1562867215
-                },
-                {
-                  "Name": "Duodenum",
-                  "MembraneLocation": "Apical",
-                  "Value": 0.3960047004
-                },
-                {
-                  "Name": "UpperJejunum",
-                  "MembraneLocation": "Apical",
-                  "Value": 0.3960047004
-                },
-                {
-                  "Name": "LowerJejunum",
-                  "MembraneLocation": "Apical",
-                  "Value": 0.3960047004
-                },
-                {
-                  "Name": "UpperIleum",
-                  "MembraneLocation": "Apical",
-                  "Value": 0.3960047004
-                },
-                {
-                  "Name": "LowerIleum",
-                  "MembraneLocation": "Apical",
-                  "Value": 0.3960047004
-                },
-                {
-                  "Name": "ColonAscendens",
-                  "MembraneLocation": "Apical",
-                  "Value": 0.1562867215
-                },
-                {
-                  "Name": "ColonTransversum",
-                  "MembraneLocation": "Apical",
-                  "Value": 0.1562867215
-                },
-                {
-                  "Name": "ColonDescendens",
-                  "MembraneLocation": "Apical",
-                  "Value": 0.1562867215
-                },
-                {
-                  "Name": "ColonSigmoid",
-                  "MembraneLocation": "Apical",
-                  "Value": 0.1562867215
-                }
-              ],
-              "Parameters": [
-                {
-                  "Name": "t1/2 (liver)",
-                  "Value": 72.0,
-                  "Unit": "h",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
-              ]
-            },
-            {
-              "Name": "OATP1B1",
-              "Type": "Transporter",
-              "TransportType": "Influx",
-              "Expression": [
-                {
-                  "Name": "Brain",
-                  "MembraneLocation": "BloodBrainBarrier",
-                  "Value": 0.00014166666667
-                },
-                {
-                  "Name": "Gonads",
-                  "MembraneLocation": "Basolateral",
-                  "Value": 0.0141666667
-                },
-                {
-                  "Name": "Heart",
-                  "MembraneLocation": "Basolateral",
-                  "Value": 0.0008253968254
-                },
-                {
-                  "Name": "Periportal",
-                  "MembraneLocation": "Basolateral",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Pericentral",
-                  "MembraneLocation": "Basolateral",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Lung",
-                  "MembraneLocation": "Basolateral",
-                  "Value": 4.0079365079E-05
-                },
-                {
-                  "Name": "Muscle",
-                  "MembraneLocation": "Basolateral",
-                  "Value": 0.00064682539683
-                }
-              ],
-              "Parameters": [
-                {
-                  "Name": "Reference concentration",
-                  "Value": 109.6,
-                  "Unit": "µmol/l",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
-              ]
-            }
-          ]
+        "ValueOrigin": {
+          "Source": "Publication",
+          "Method": "InVivo",
+          "Description": "Goreski 1987"
         }
       },
-      "AdvancedParameters": [
+      "Parameters": [
         {
-          "Name": "CYP3A4|Reference concentration",
-          "Seed": 621510385,
-          "DistributionType": "Normal",
-          "Parameters": [
-            {
-              "Name": "Mean",
-              "Value": 4.32,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "Deviation",
-              "Value": 0.0,
-              "Unit": "µmol/l"
-            }
-          ]
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
         },
         {
-          "Name": "CYP3A4|t1/2 (liver)",
-          "Seed": 621510416,
-          "DistributionType": "Normal",
-          "Parameters": [
-            {
-              "Name": "Mean",
-              "Value": 72.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Deviation",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
         },
         {
-          "Name": "CYP3A4|t1/2 (intestine)",
-          "Seed": 621510416,
-          "DistributionType": "Normal",
-          "Parameters": [
-            {
-              "Name": "Mean",
-              "Value": 23.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Deviation",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
         },
         {
-          "Name": "CYP3A5|Reference concentration",
-          "Seed": 621510432,
-          "DistributionType": "Normal",
-          "Parameters": [
-            {
-              "Name": "Mean",
-              "Value": 0.04,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "Deviation",
-              "Value": 0.0,
-              "Unit": "µmol/l"
-            }
-          ]
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
         },
         {
-          "Name": "CYP3A5|t1/2 (liver)",
-          "Seed": 621510448,
-          "DistributionType": "Normal",
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
           "Parameters": [
             {
-              "Name": "Mean",
+              "Name": "t1/2 (liver)",
               "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Deviation",
-              "Value": 0.0,
-              "Unit": "h"
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ]
         },
         {
-          "Name": "CYP2C9|Reference concentration",
-          "Seed": 621510448,
-          "DistributionType": "Normal",
-          "Parameters": [
+          "Name": "CYP3A5",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
             {
-              "Name": "Mean",
-              "Value": 3.84,
-              "Unit": "µmol/l"
+              "Name": "Brain",
+              "Value": 0.0041810344828
             },
             {
-              "Name": "Deviation",
-              "Value": 0.0,
-              "Unit": "µmol/l"
+              "Name": "Kidney",
+              "Value": 0.1681034483
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.1620689655
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.5379310345
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A5"
+          }
+        },
+        {
+          "Name": "AADAC",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "BloodCells",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Plasma",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Bone",
+              "Value": 4.8717948718E-05
+            },
+            {
+              "Name": "Brain",
+              "Value": 3.9743589744E-05
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0011923076923
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.0026602564103
+            },
+            {
+              "Name": "Kidney",
+              "Value": 5.7051282051E-05
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0269230769
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.00020833333333
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.1474358974
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.00037115384615
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0775641026
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.00010384615385
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 72.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ]
         },
         {
-          "Name": "CYP2C9|t1/2 (liver)",
-          "Seed": 621510463,
-          "DistributionType": "Normal",
-          "Parameters": [
+          "Name": "CYP2C9",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
             {
-              "Name": "Mean",
-              "Value": 104.0,
-              "Unit": "h"
+              "Name": "Brain",
+              "Value": 0.00039687350455
             },
             {
-              "Name": "Deviation",
-              "Value": 0.0,
-              "Unit": "h"
+              "Name": "Gonads",
+              "Value": 4.5940341362E-05
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0018822778753
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0002131121391
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.1199553358
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2C9"
+          }
+        },
+        {
+          "Name": "CYP1A2",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Gonads",
+              "Value": 0.00029559748428
+            },
+            {
+              "Name": "Kidney",
+              "Value": 4.4025157233E-06
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 2.4947589099E-05
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP1A2"
+          }
+        },
+        {
+          "Name": "ABCB1",
+          "Type": "Transporter",
+          "TransportType": "Efflux",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0341950646
+            },
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.1072855464
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.024559342
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.059106933
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Apical",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0927144536
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0180963572
+            },
+            {
+              "Name": "Pancreas",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0200940071
+            },
+            {
+              "Name": "Spleen",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1047003525
+            },
+            {
+              "Name": "Stomach",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0367802585
+            },
+            {
+              "Name": "SmallIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LargeIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "Duodenum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "UpperJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LowerJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "UpperIleum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LowerIleum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "ColonAscendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "ColonTransversum",
+              "MembraneLocation": "Apical",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "ColonDescendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "ColonSigmoid",
+              "MembraneLocation": "Apical",
+              "Value": 0.1562867215
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 72.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ]
         },
         {
-          "Name": "CYP1A2|Reference concentration",
-          "Seed": 621510463,
-          "DistributionType": "Normal",
-          "Parameters": [
+          "Name": "OATP1B1",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
             {
-              "Name": "Mean",
-              "Value": 1.8,
-              "Unit": "µmol/l"
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.00014166666667
             },
             {
-              "Name": "Deviation",
-              "Value": 0.0,
-              "Unit": "µmol/l"
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0141666667
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0008253968254
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 4.0079365079E-05
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.00064682539683
             }
-          ]
-        },
-        {
-          "Name": "CYP1A2|t1/2 (liver)",
-          "Seed": 621510463,
-          "DistributionType": "Normal",
+          ],
           "Parameters": [
             {
-              "Name": "Mean",
-              "Value": 39.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Deviation",
-              "Value": 24.0,
-              "Unit": "h"
+              "Name": "Reference concentration",
+              "Value": 109.6,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
             }
           ]
         }
       ]
     },
     {
+      "Name": "Roure 1987 ID1",
+      "Seed": 441640125,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 10.0,
+          "Unit": "month(s)"
+        },
+        "ValueOrigin": {
+          "Source": "Publication",
+          "Method": "InVivo",
+          "Description": "Roure 1987"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A5",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041810344828
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.1681034483
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.1620689655
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.5379310345
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A5"
+          }
+        },
+        {
+          "Name": "AADAC",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "BloodCells",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Plasma",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Bone",
+              "Value": 4.8717948718E-05
+            },
+            {
+              "Name": "Brain",
+              "Value": 3.9743589744E-05
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0011923076923
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.0026602564103
+            },
+            {
+              "Name": "Kidney",
+              "Value": 5.7051282051E-05
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0269230769
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.00020833333333
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.1474358974
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.00037115384615
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0775641026
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.00010384615385
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 72.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C9",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00039687350455
+            },
+            {
+              "Name": "Gonads",
+              "Value": 4.5940341362E-05
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0018822778753
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0002131121391
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.1199553358
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2C9"
+          }
+        },
+        {
+          "Name": "CYP1A2",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Gonads",
+              "Value": 0.00029559748428
+            },
+            {
+              "Name": "Kidney",
+              "Value": 4.4025157233E-06
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 2.4947589099E-05
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP1A2"
+          }
+        },
+        {
+          "Name": "ABCB1",
+          "Type": "Transporter",
+          "TransportType": "Efflux",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0341950646
+            },
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.1072855464
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.024559342
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.059106933
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Apical",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0927144536
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0180963572
+            },
+            {
+              "Name": "Pancreas",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0200940071
+            },
+            {
+              "Name": "Spleen",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1047003525
+            },
+            {
+              "Name": "Stomach",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0367802585
+            },
+            {
+              "Name": "SmallIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LargeIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "Duodenum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "UpperJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LowerJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "UpperIleum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LowerIleum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "ColonAscendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "ColonTransversum",
+              "MembraneLocation": "Apical",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "ColonDescendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "ColonSigmoid",
+              "MembraneLocation": "Apical",
+              "Value": 0.1562867215
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 72.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "OATP1B1",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.00014166666667
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0141666667
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0008253968254
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 4.0079365079E-05
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.00064682539683
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 109.6,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Roure 1987 ID4",
+      "Seed": 441939179,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 21.0,
+          "Unit": "month(s)"
+        },
+        "ValueOrigin": {
+          "Source": "Publication",
+          "Method": "InVivo",
+          "Description": "Roure 1987"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+          "Value": 0.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "Molecules": [
+        {
+          "Name": "CYP3A4",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041682898325
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.00078691079081
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0053603428126
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.00042695753798
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.0727697702
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.0727697702
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A4"
+          },
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "CYP3A5",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.0041810344828
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.1681034483
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.1620689655
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.5379310345
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.5379310345
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP3A5"
+          }
+        },
+        {
+          "Name": "AADAC",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "BloodCells",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Plasma",
+              "Value": 3.9102564103E-05
+            },
+            {
+              "Name": "Bone",
+              "Value": 4.8717948718E-05
+            },
+            {
+              "Name": "Brain",
+              "Value": 3.9743589744E-05
+            },
+            {
+              "Name": "Gonads",
+              "Value": 0.0011923076923
+            },
+            {
+              "Name": "Heart",
+              "Value": 0.0026602564103
+            },
+            {
+              "Name": "Kidney",
+              "Value": 5.7051282051E-05
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0269230769
+            },
+            {
+              "Name": "Muscle",
+              "Value": 0.00020833333333
+            },
+            {
+              "Name": "Pancreas",
+              "Value": 0.1474358974
+            },
+            {
+              "Name": "Spleen",
+              "Value": 0.00037115384615
+            },
+            {
+              "Name": "Stomach",
+              "Value": 0.0775641026
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LargeIntestine",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.2544871795
+            },
+            {
+              "Name": "ColonAscendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonTransversum",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonDescendens",
+              "Value": 0.00010384615385
+            },
+            {
+              "Name": "ColonSigmoid",
+              "Value": 0.00010384615385
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 72.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "CYP2C9",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "Value": 0.00039687350455
+            },
+            {
+              "Name": "Gonads",
+              "Value": 4.5940341362E-05
+            },
+            {
+              "Name": "Kidney",
+              "Value": 0.0018822778753
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 0.0002131121391
+            },
+            {
+              "Name": "SmallIntestine",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "Duodenum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "UpperJejunum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "LowerJejunum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "UpperIleum",
+              "Value": 0.1199553358
+            },
+            {
+              "Name": "LowerIleum",
+              "Value": 0.1199553358
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP2C9"
+          }
+        },
+        {
+          "Name": "CYP1A2",
+          "Type": "Enzyme",
+          "MembraneLocation": "Apical",
+          "TissueLocation": "Intracellular",
+          "IntracellularVascularEndoLocation": "Endosomal",
+          "Expression": [
+            {
+              "Name": "Gonads",
+              "Value": 0.00029559748428
+            },
+            {
+              "Name": "Kidney",
+              "Value": 4.4025157233E-06
+            },
+            {
+              "Name": "Periportal",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "Value": 2.4947589099E-05
+            }
+          ],
+          "Ontogeny": {
+            "Name": "CYP1A2"
+          }
+        },
+        {
+          "Name": "ABCB1",
+          "Type": "Transporter",
+          "TransportType": "Efflux",
+          "Expression": [
+            {
+              "Name": "Bone",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0341950646
+            },
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.1072855464
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.024559342
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.059106933
+            },
+            {
+              "Name": "Kidney",
+              "MembraneLocation": "Apical",
+              "Value": 1.0
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Apical",
+              "Value": 0.2702702703
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0927144536
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0180963572
+            },
+            {
+              "Name": "Pancreas",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0200940071
+            },
+            {
+              "Name": "Spleen",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1047003525
+            },
+            {
+              "Name": "Stomach",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0367802585
+            },
+            {
+              "Name": "SmallIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LargeIntestine",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "Duodenum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "UpperJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LowerJejunum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "UpperIleum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "LowerIleum",
+              "MembraneLocation": "Apical",
+              "Value": 0.3960047004
+            },
+            {
+              "Name": "ColonAscendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "ColonTransversum",
+              "MembraneLocation": "Apical",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "ColonDescendens",
+              "MembraneLocation": "Apical",
+              "Value": 0.1562867215
+            },
+            {
+              "Name": "ColonSigmoid",
+              "MembraneLocation": "Apical",
+              "Value": 0.1562867215
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "t1/2 (liver)",
+              "Value": 72.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Name": "OATP1B1",
+          "Type": "Transporter",
+          "TransportType": "Influx",
+          "Expression": [
+            {
+              "Name": "Brain",
+              "MembraneLocation": "BloodBrainBarrier",
+              "Value": 0.00014166666667
+            },
+            {
+              "Name": "Gonads",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0141666667
+            },
+            {
+              "Name": "Heart",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.0008253968254
+            },
+            {
+              "Name": "Periportal",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Pericentral",
+              "MembraneLocation": "Basolateral",
+              "Value": 1.0
+            },
+            {
+              "Name": "Lung",
+              "MembraneLocation": "Basolateral",
+              "Value": 4.0079365079E-05
+            },
+            {
+              "Name": "Muscle",
+              "MembraneLocation": "Basolateral",
+              "Value": 0.00064682539683
+            }
+          ],
+          "Parameters": [
+            {
+              "Name": "Reference concentration",
+              "Value": 109.6,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Populations": [
+    {
       "Name": "Meistelman 1987 Children",
-      "Seed": 621765182,
+      "Seed": 257317455,
       "Settings": {
         "NumberOfIndividuals": 500,
         "ProportionOfFemales": 50,
@@ -24000,8 +26190,8 @@
           "Unit": "kg"
         },
         "Individual": {
-          "Name": "Standard European Male for DDI",
-          "Seed": 616745943,
+          "Name": "European (P-gp and Colon modified, CYP3A4 36 h)",
+          "Seed": 264844784,
           "OriginData": {
             "CalculationMethods": [
               "SurfaceAreaPlsInt_VAR1",
@@ -24015,6 +26205,57 @@
               "Unit": "year(s)"
             }
           },
+          "Parameters": [
+            {
+              "Path": "Organism|Liver|EHC continuous fraction",
+              "Value": 1.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Path": "Organism|Lumen|Caecum|Effective surface area enhancement factor",
+              "Value": 0.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Path": "Organism|Lumen|ColonAscendens|Effective surface area enhancement factor",
+              "Value": 0.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Path": "Organism|Lumen|ColonDescendens|Effective surface area enhancement factor",
+              "Value": 0.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Path": "Organism|Lumen|ColonSigmoid|Effective surface area enhancement factor",
+              "Value": 0.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Path": "Organism|Lumen|ColonTransversum|Effective surface area enhancement factor",
+              "Value": 0.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Path": "Organism|Lumen|Rectum|Effective surface area enhancement factor",
+              "Value": 0.0,
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ],
           "Molecules": [
             {
               "Name": "CYP3A4",
@@ -24078,69 +26319,13 @@
               "Parameters": [
                 {
                   "Name": "t1/2 (liver)",
-                  "Value": 72.0,
+                  "Value": 36.0,
                   "Unit": "h",
                   "ValueOrigin": {
                     "Source": "Unknown"
                   }
                 }
               ]
-            },
-            {
-              "Name": "CYP3A5",
-              "Type": "Enzyme",
-              "MembraneLocation": "Apical",
-              "TissueLocation": "Intracellular",
-              "IntracellularVascularEndoLocation": "Endosomal",
-              "Expression": [
-                {
-                  "Name": "Brain",
-                  "Value": 0.0041810344828
-                },
-                {
-                  "Name": "Kidney",
-                  "Value": 0.1681034483
-                },
-                {
-                  "Name": "Periportal",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Pericentral",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Lung",
-                  "Value": 0.1620689655
-                },
-                {
-                  "Name": "SmallIntestine",
-                  "Value": 0.5379310345
-                },
-                {
-                  "Name": "Duodenum",
-                  "Value": 0.5379310345
-                },
-                {
-                  "Name": "UpperJejunum",
-                  "Value": 0.5379310345
-                },
-                {
-                  "Name": "LowerJejunum",
-                  "Value": 0.5379310345
-                },
-                {
-                  "Name": "UpperIleum",
-                  "Value": 0.5379310345
-                },
-                {
-                  "Name": "LowerIleum",
-                  "Value": 0.5379310345
-                }
-              ],
-              "Ontogeny": {
-                "Name": "CYP3A5"
-              }
             },
             {
               "Name": "AADAC",
@@ -24249,109 +26434,7 @@
                   "Name": "ColonSigmoid",
                   "Value": 0.00010384615385
                 }
-              ],
-              "Parameters": [
-                {
-                  "Name": "t1/2 (liver)",
-                  "Value": 72.0,
-                  "Unit": "h",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
               ]
-            },
-            {
-              "Name": "CYP2C9",
-              "Type": "Enzyme",
-              "MembraneLocation": "Apical",
-              "TissueLocation": "Intracellular",
-              "IntracellularVascularEndoLocation": "Endosomal",
-              "Expression": [
-                {
-                  "Name": "Brain",
-                  "Value": 0.00039687350455
-                },
-                {
-                  "Name": "Gonads",
-                  "Value": 4.5940341362E-05
-                },
-                {
-                  "Name": "Kidney",
-                  "Value": 0.0018822778753
-                },
-                {
-                  "Name": "Periportal",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Pericentral",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Lung",
-                  "Value": 0.0002131121391
-                },
-                {
-                  "Name": "SmallIntestine",
-                  "Value": 0.1199553358
-                },
-                {
-                  "Name": "Duodenum",
-                  "Value": 0.1199553358
-                },
-                {
-                  "Name": "UpperJejunum",
-                  "Value": 0.1199553358
-                },
-                {
-                  "Name": "LowerJejunum",
-                  "Value": 0.1199553358
-                },
-                {
-                  "Name": "UpperIleum",
-                  "Value": 0.1199553358
-                },
-                {
-                  "Name": "LowerIleum",
-                  "Value": 0.1199553358
-                }
-              ],
-              "Ontogeny": {
-                "Name": "CYP2C9"
-              }
-            },
-            {
-              "Name": "CYP1A2",
-              "Type": "Enzyme",
-              "MembraneLocation": "Apical",
-              "TissueLocation": "Intracellular",
-              "IntracellularVascularEndoLocation": "Endosomal",
-              "Expression": [
-                {
-                  "Name": "Gonads",
-                  "Value": 0.00029559748428
-                },
-                {
-                  "Name": "Kidney",
-                  "Value": 4.4025157233E-06
-                },
-                {
-                  "Name": "Periportal",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Pericentral",
-                  "Value": 1.0
-                },
-                {
-                  "Name": "Lung",
-                  "Value": 2.4947589099E-05
-                }
-              ],
-              "Ontogeny": {
-                "Name": "CYP1A2"
-              }
             },
             {
               "Name": "ABCB1",
@@ -24431,54 +26514,311 @@
                 {
                   "Name": "Duodenum",
                   "MembraneLocation": "Apical",
-                  "Value": 0.3960047004
+                  "Value": 1.41
                 },
                 {
                   "Name": "UpperJejunum",
                   "MembraneLocation": "Apical",
-                  "Value": 0.3960047004
+                  "Value": 1.41
                 },
                 {
                   "Name": "LowerJejunum",
                   "MembraneLocation": "Apical",
-                  "Value": 0.3960047004
+                  "Value": 1.41
                 },
                 {
                   "Name": "UpperIleum",
                   "MembraneLocation": "Apical",
-                  "Value": 0.3960047004
+                  "Value": 1.41
                 },
                 {
                   "Name": "LowerIleum",
                   "MembraneLocation": "Apical",
-                  "Value": 0.3960047004
+                  "Value": 1.41
                 },
                 {
                   "Name": "ColonAscendens",
                   "MembraneLocation": "Apical",
-                  "Value": 0.1562867215
+                  "Value": 0.56
                 },
                 {
                   "Name": "ColonTransversum",
                   "MembraneLocation": "Apical",
-                  "Value": 0.1562867215
+                  "Value": 0.56
                 },
                 {
                   "Name": "ColonDescendens",
                   "MembraneLocation": "Apical",
-                  "Value": 0.1562867215
+                  "Value": 0.56
                 },
                 {
                   "Name": "ColonSigmoid",
                   "MembraneLocation": "Apical",
-                  "Value": 0.1562867215
+                  "Value": 0.56
                 }
               ],
+              "Ontogeny": {
+                "Name": "P-gp",
+                "Table": {
+                  "Name": "P-gp",
+                  "Percentile": 0.0,
+                  "DistributionMetaData": [
+                    {
+                      "Mean": 1E-14,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 1.915059E-05,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 5.486795E-05,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.0001571905,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.0004502473,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.001288958,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.00368424,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.01048397,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.02946235,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.0800178,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.1994918,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.4165768,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.6716791,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.8542612,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.943803,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.9796414,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.992799,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.9974749,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.9991173,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.9996917,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.9998924,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.9999624,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 0.9999869,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    },
+                    {
+                      "Mean": 1.0,
+                      "Deviation": 1.6,
+                      "Distribution": "LogNormal"
+                    }
+                  ],
+                  "XName": "Postmenstrual age",
+                  "XDimension": "Age in years",
+                  "XUnit": "year(s)",
+                  "YName": "P-gp",
+                  "YDimension": "Fraction",
+                  "UseDerivedValues": false,
+                  "Points": [
+                    {
+                      "X": 0.0,
+                      "Y": 1E-14,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 0.08333334,
+                      "Y": 1.915059E-05,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 0.1666667,
+                      "Y": 5.486795E-05,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 0.25,
+                      "Y": 0.0001571905,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 0.3333333,
+                      "Y": 0.0004502473,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 0.4166667,
+                      "Y": 0.001288958,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 0.5,
+                      "Y": 0.00368424,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 0.5833333,
+                      "Y": 0.01048397,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 0.6666667,
+                      "Y": 0.02946235,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 0.75,
+                      "Y": 0.0800178,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 0.8333333,
+                      "Y": 0.1994918,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 0.9166667,
+                      "Y": 0.4165768,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 1.0,
+                      "Y": 0.6716791,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 1.083333,
+                      "Y": 0.8542612,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 1.166667,
+                      "Y": 0.943803,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 1.25,
+                      "Y": 0.9796414,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 1.333333,
+                      "Y": 0.992799,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 1.416667,
+                      "Y": 0.9974749,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 1.5,
+                      "Y": 0.9991173,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 1.583333,
+                      "Y": 0.9996917,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 1.666667,
+                      "Y": 0.9998924,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 1.75,
+                      "Y": 0.9999624,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 1.833333,
+                      "Y": 0.9999869,
+                      "RestartSolver": false
+                    },
+                    {
+                      "X": 3.333333,
+                      "Y": 1.0,
+                      "RestartSolver": false
+                    }
+                  ]
+                }
+              },
               "Parameters": [
                 {
-                  "Name": "t1/2 (liver)",
-                  "Value": 72.0,
-                  "Unit": "h",
+                  "Name": "Reference concentration",
+                  "Value": 1.41,
+                  "Unit": "µmol/l",
                   "ValueOrigin": {
                     "Source": "Unknown"
                   }
@@ -24525,11 +26865,116 @@
                   "MembraneLocation": "Basolateral",
                   "Value": 0.00064682539683
                 }
+              ]
+            },
+            {
+              "Name": "ATP1A2",
+              "Type": "OtherProtein",
+              "MembraneLocation": "Apical",
+              "TissueLocation": "ExtracellularMembrane",
+              "IntracellularVascularEndoLocation": "Endosomal",
+              "Expression": [
+                {
+                  "Name": "Bone",
+                  "Value": 0.0062154033171
+                },
+                {
+                  "Name": "Brain",
+                  "Value": 1.0
+                },
+                {
+                  "Name": "Gonads",
+                  "Value": 0.0508741242
+                },
+                {
+                  "Name": "Heart",
+                  "Value": 0.3179118843
+                },
+                {
+                  "Name": "Kidney",
+                  "Value": 0.0158938619
+                },
+                {
+                  "Name": "Periportal",
+                  "Value": 0.0223784807
+                },
+                {
+                  "Name": "Pericentral",
+                  "Value": 0.0223784807
+                },
+                {
+                  "Name": "Lung",
+                  "Value": 0.0272345453
+                },
+                {
+                  "Name": "Muscle",
+                  "Value": 0.7034193524
+                },
+                {
+                  "Name": "Pancreas",
+                  "Value": 0.0073903254795
+                },
+                {
+                  "Name": "Skin",
+                  "Value": 0.0389467988
+                },
+                {
+                  "Name": "Spleen",
+                  "Value": 0.0103243118
+                },
+                {
+                  "Name": "Stomach",
+                  "Value": 0.0309435884
+                },
+                {
+                  "Name": "SmallIntestine",
+                  "Value": 0.0501579923
+                },
+                {
+                  "Name": "LargeIntestine",
+                  "Value": 0.0786998764
+                },
+                {
+                  "Name": "Duodenum",
+                  "Value": 0.0501579923
+                },
+                {
+                  "Name": "UpperJejunum",
+                  "Value": 0.0501579923
+                },
+                {
+                  "Name": "LowerJejunum",
+                  "Value": 0.0501579923
+                },
+                {
+                  "Name": "UpperIleum",
+                  "Value": 0.0501579923
+                },
+                {
+                  "Name": "LowerIleum",
+                  "Value": 0.0501579923
+                },
+                {
+                  "Name": "ColonAscendens",
+                  "Value": 0.0786998764
+                },
+                {
+                  "Name": "ColonTransversum",
+                  "Value": 0.0786998764
+                },
+                {
+                  "Name": "ColonDescendens",
+                  "Value": 0.0786998764
+                },
+                {
+                  "Name": "ColonSigmoid",
+                  "Value": 0.0786998764
+                }
               ],
               "Parameters": [
                 {
                   "Name": "Reference concentration",
-                  "Value": 109.6,
+                  "Value": 0.47661714,
                   "Unit": "µmol/l",
                   "ValueOrigin": {
                     "Source": "Unknown"
@@ -24543,7 +26988,7 @@
       "AdvancedParameters": [
         {
           "Name": "CYP3A4|Reference concentration",
-          "Seed": 621784089,
+          "Seed": 257332775,
           "DistributionType": "Normal",
           "Parameters": [
             {
@@ -24560,58 +27005,7 @@
         },
         {
           "Name": "CYP3A4|t1/2 (liver)",
-          "Seed": 621784120,
-          "DistributionType": "Normal",
-          "Parameters": [
-            {
-              "Name": "Mean",
-              "Value": 72.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Deviation",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "CYP3A4|t1/2 (intestine)",
-          "Seed": 621784120,
-          "DistributionType": "Normal",
-          "Parameters": [
-            {
-              "Name": "Mean",
-              "Value": 23.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Deviation",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "CYP3A5|Reference concentration",
-          "Seed": 621784136,
-          "DistributionType": "Normal",
-          "Parameters": [
-            {
-              "Name": "Mean",
-              "Value": 0.04,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "Deviation",
-              "Value": 0.0,
-              "Unit": "µmol/l"
-            }
-          ]
-        },
-        {
-          "Name": "CYP3A5|t1/2 (liver)",
-          "Seed": 621784151,
+          "Seed": 257332806,
           "DistributionType": "Normal",
           "Parameters": [
             {
@@ -24627,69 +27021,18 @@
           ]
         },
         {
-          "Name": "CYP2C9|Reference concentration",
-          "Seed": 621784167,
+          "Name": "CYP3A4|t1/2 (intestine)",
+          "Seed": 257332806,
           "DistributionType": "Normal",
           "Parameters": [
             {
               "Name": "Mean",
-              "Value": 3.84,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "Deviation",
-              "Value": 0.0,
-              "Unit": "µmol/l"
-            }
-          ]
-        },
-        {
-          "Name": "CYP2C9|t1/2 (liver)",
-          "Seed": 621784183,
-          "DistributionType": "Normal",
-          "Parameters": [
-            {
-              "Name": "Mean",
-              "Value": 104.0,
+              "Value": 23.0,
               "Unit": "h"
             },
             {
               "Name": "Deviation",
               "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "CYP1A2|Reference concentration",
-          "Seed": 621784198,
-          "DistributionType": "Normal",
-          "Parameters": [
-            {
-              "Name": "Mean",
-              "Value": 1.8,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "Deviation",
-              "Value": 0.0,
-              "Unit": "µmol/l"
-            }
-          ]
-        },
-        {
-          "Name": "CYP1A2|t1/2 (liver)",
-          "Seed": 621784214,
-          "DistributionType": "Normal",
-          "Parameters": [
-            {
-              "Name": "Mean",
-              "Value": 39.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Deviation",
-              "Value": 24.0,
               "Unit": "h"
             }
           ]
@@ -24821,7 +27164,6 @@
       "IntestinalPermeability": [
         {
           "Name": "Fit",
-          "IsDefault": false,
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
@@ -26645,7 +28987,7 @@
             },
             {
               "Name": "End time",
-              "Value": 60.0,
+              "Value": 45.0,
               "Unit": "min",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -26751,7 +29093,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nden Holländer 1992 ind C2\n2019-06-14 13:23"
+          "OriginText": "Alfentanil\nden Holländer 1992 ind C2\n2019-06-18 14:01"
         }
       ]
     },
@@ -26769,7 +29111,7 @@
             },
             {
               "Name": "End time",
-              "Value": 60.0,
+              "Value": 45.0,
               "Unit": "min",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -26875,7 +29217,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nden Holländer 1992 ind C3\n2019-06-14 13:23"
+          "OriginText": "Alfentanil\nden Holländer 1992 ind C3\n2019-06-18 14:02"
         }
       ]
     },
@@ -26893,7 +29235,7 @@
             },
             {
               "Name": "End time",
-              "Value": 60.0,
+              "Value": 45.0,
               "Unit": "min",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -26999,7 +29341,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nden Holländer 1992 ind C4\n2019-06-14 13:24"
+          "OriginText": "Alfentanil\nden Holländer 1992 ind C4\n2019-06-18 14:02"
         }
       ]
     },
@@ -27017,7 +29359,7 @@
             },
             {
               "Name": "End time",
-              "Value": 60.0,
+              "Value": 45.0,
               "Unit": "min",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -27123,7 +29465,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nden Holländer 1992 ind C5\n2019-06-14 13:24"
+          "OriginText": "Alfentanil\nden Holländer 1992 ind C5\n2019-06-18 14:02"
         }
       ]
     },
@@ -27141,7 +29483,7 @@
             },
             {
               "Name": "End time",
-              "Value": 60.0,
+              "Value": 45.0,
               "Unit": "min",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -27247,7 +29589,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nden Holländer 1992 ind C6\n2019-06-14 13:24"
+          "OriginText": "Alfentanil\nden Holländer 1992 ind C6\n2019-06-19 08:39"
         }
       ]
     },
@@ -27265,7 +29607,7 @@
             },
             {
               "Name": "End time",
-              "Value": 60.0,
+              "Value": 45.0,
               "Unit": "min",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -27371,7 +29713,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nden Holländer 1992 ind 1\n2019-06-14 13:23"
+          "OriginText": "Alfentanil\nden Holländer 1992 ind 1\n2019-06-18 14:00"
         }
       ]
     },
@@ -27389,7 +29731,7 @@
             },
             {
               "Name": "End time",
-              "Value": 60.0,
+              "Value": 45.0,
               "Unit": "min",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -27495,16 +29837,13 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nden Holländer 1992 ind 2\n2019-06-14 13:23"
+          "OriginText": "Alfentanil\nden Holländer 1992 ind 2\n2019-06-18 14:00"
         }
       ]
     },
     {
-      "Name": "den Holländer 1992 ind 3",
+      "Name": "den Holländer 1992 ind 3 (for Ratioplot)",
       "Model": "4Comp",
-      "ObservedData": [
-        "Den hollander 1992.Female.1.7mg.IV 10min.Patient I3"
-      ],
       "Solver": {},
       "OutputSchema": [
         {
@@ -27516,7 +29855,7 @@
             },
             {
               "Name": "End time",
-              "Value": 60.0,
+              "Value": 45.0,
               "Unit": "min",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -27612,23 +29951,12 @@
           ],
           "Curves": [
             {
-              "Name": "den Holländer 1992 ind 3-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "den Holländer 1992 ind 3 (for Ratioplot)-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "den Holländer 1992 ind 3|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "Y": "den Holländer 1992 ind 3 (for Ratioplot)|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "255, 0, 0",
                 "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Den hollander 1992.Female.1.7mg.IV 10min.Patient I3-Alfentanil-Peripheral Venous Blood-Plasma-Concentration ",
-              "X": "Den hollander 1992.Female.1.7mg.IV 10min.Patient I3|Reported time ",
-              "Y": "Den hollander 1992.Female.1.7mg.IV 10min.Patient I3|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Concentration ",
-              "CurveOptions": {
-                "Color": "0, 0, 255",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
               }
             }
           ],
@@ -27646,7 +29974,7 @@
               "WatermarkSize": 32
             }
           },
-          "OriginText": "Alfentanil\nden Holländer 1992 ind 3\n2019-06-14 13:23"
+          "OriginText": "Alfentanil\nden Holländer 1992 ind 3\n2019-06-18 14:00"
         }
       ]
     },
@@ -27664,7 +29992,7 @@
             },
             {
               "Name": "End time",
-              "Value": 60.0,
+              "Value": 45.0,
               "Unit": "min",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -27770,7 +30098,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nden Holländer 1992 ind 4\n2019-06-14 13:23"
+          "OriginText": "Alfentanil\nden Holländer 1992 ind 4\n2019-06-18 14:01"
         }
       ]
     },
@@ -27788,7 +30116,7 @@
             },
             {
               "Name": "End time",
-              "Value": 60.0,
+              "Value": 45.0,
               "Unit": "min",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -27894,7 +30222,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nden Holländer 1992 ind 5\n2019-06-14 13:23"
+          "OriginText": "Alfentanil\nden Holländer 1992 ind 5\n2019-06-18 14:01"
         }
       ]
     },
@@ -28018,7 +30346,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nGoreski 1987 patnr 1\n2019-06-14 13:24"
+          "OriginText": "Alfentanil\nGoreski 1987 patnr 1\n2019-06-18 17:33"
         }
       ]
     },
@@ -28142,7 +30470,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nGoreski 1987 patnr 10\n2019-06-14 13:24"
+          "OriginText": "Alfentanil\nGoreski 1987 patnr 10\n2019-06-18 17:32"
         }
       ]
     },
@@ -28266,7 +30594,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nGoreski 1987 patnr 11\n2019-06-14 13:24"
+          "OriginText": "Alfentanil\nGoreski 1987 patnr 11\n2019-06-19 08:27"
         }
       ]
     },
@@ -28886,7 +31214,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nGoreski 1987 patnr 17\n2019-06-14 13:25"
+          "OriginText": "Alfentanil\nGoreski 1987 patnr 17\n2019-06-18 15:33"
         }
       ]
     },
@@ -29483,7 +31811,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "ng/ml",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -29506,7 +31834,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nGoreski 1987 patnr 5\n2019-06-14 13:25"
+          "OriginText": "Alfentanil\nGoreski 1987 patnr 5\n2019-06-18 17:05"
         }
       ]
     },
@@ -30522,7 +32850,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nMeistelman 1987 ped.4\n2019-06-14 13:27"
+          "OriginText": "Alfentanil\nMeistelman 1987 ped.4\n2019-06-16 14:47"
         }
       ]
     },
@@ -30652,7 +32980,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nMeistelman 1987 ped.5\n2019-06-14 13:27"
+          "OriginText": "Alfentanil\nMeistelman 1987 ped.5\n2019-06-16 14:47"
         }
       ]
     },
@@ -30782,7 +33110,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nMeistelman 1987 ped.6\n2019-06-14 13:27"
+          "OriginText": "Alfentanil\nMeistelman 1987 ped.6\n2019-06-16 14:47"
         }
       ]
     },
@@ -31042,7 +33370,7 @@
             }
           ],
           "Name": "Time Profile Analysis",
-          "OriginText": "Alfentanil\nMeistelman 1987 ped.8\n2019-06-14 13:28"
+          "OriginText": "Alfentanil\nMeistelman 1987 ped.8\n2019-06-16 14:47"
         }
       ]
     },
@@ -31050,7 +33378,8 @@
       "Name": "Meistelman 1987 children",
       "Model": "4Comp",
       "ObservedData": [
-        "Meistelman_1987_Figure_children"
+        "Meistelman_1987_Figure_children",
+        "Goreskey 1987.Undefined.50µg/kg.IV 30sec infusion.typical child"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -31110,33 +33439,32 @@
       ],
       "Parameters": [
         {
-          "Path": "AADAC|t1/2 (liver)",
-          "Value": 72.0,
-          "Unit": "h",
+          "Path": "ABCB1|Reference concentration",
+          "Value": 1.41,
+          "Unit": "µmol/l",
           "ValueOrigin": {
             "Source": "Unknown"
           }
         },
         {
-          "Path": "ABCB1|t1/2 (liver)",
-          "Value": 72.0,
-          "Unit": "h",
+          "Path": "ATP1A2|Reference concentration",
+          "Value": 0.47661714,
+          "Unit": "µmol/l",
           "ValueOrigin": {
             "Source": "Unknown"
           }
         },
         {
           "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 72.0,
+          "Value": 36.0,
           "Unit": "h",
           "ValueOrigin": {
             "Source": "Unknown"
           }
         },
         {
-          "Path": "OATP1B1|Reference concentration",
-          "Value": 109.6,
-          "Unit": "µmol/l",
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
           "ValueOrigin": {
             "Source": "Unknown"
           }
@@ -31215,7 +33543,8 @@
           },
           "ObservedDataCollection": {
             "ObservedData": [
-              "Meistelman_1987_Figure_children"
+              "Meistelman_1987_Figure_children",
+              "Goreskey 1987.Undefined.50µg/kg.IV 30sec infusion.typical child"
             ],
             "ApplyGrouping": false,
             "CurveOptions": [
@@ -31225,6 +33554,15 @@
                 "CurveOptions": {
                   "LineStyle": "None",
                   "Symbol": "Circle"
+                }
+              },
+              {
+                "Caption": "Goreskey 1987.Undefined.50µg/kg.IV 30sec infusion.typical child-Alfentanil-Peripheral Venous Blood-Plasma-Concentration ",
+                "Path": "Goreskey 1987.Undefined.50µg/kg.IV 30sec infusion.typical child|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Concentration ",
+                "CurveOptions": {
+                  "Color": "0, 0, 0",
+                  "LineStyle": "None",
+                  "Symbol": "Diamond"
                 }
               }
             ]
@@ -31256,7 +33594,158 @@
             "BackColor": "Transparent",
             "DiagramBackColor": "White"
           },
-          "OriginText": "Alfentanil_v7.4.0\nMeistelman 1987 children\n2019-03-15 13:53"
+          "OriginText": "Alfentanil\nMeistelman 1987 children\n2019-06-16 14:57"
+        }
+      ]
+    },
+    {
+      "Name": "den Holländer 1992 ind 3",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Den hollander 1992.Female.1.7mg.IV 10min.Patient I3"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 50.0,
+              "Unit": "min",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Den Holländer ind3 1.7mg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 10.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|ArterialBlood|Plasma|Alfentanil|Concentration in container"
+      ],
+      "Individual": "den Holländer 1992 ind3 female 0.99y 8.5kg",
+      "Compounds": [
+        {
+          "Name": "Alfentanil",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_LIPOPHILICITY"
+            },
+            {
+              "AlternativeName": "Healthy",
+              "GroupName": "COMPOUND_FRACTION_UNBOUND"
+            },
+            {
+              "AlternativeName": "Calculated",
+              "GroupName": "COMPOUND_PERMEABILITY"
+            },
+            {
+              "AlternativeName": "Fit",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "CYP3A4-1st order CL",
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Den Holländer ind3 1.7mg"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "min",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "den Holländer 1992 ind 3-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "den Holländer 1992 ind 3|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "255, 0, 0",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Den hollander 1992.Female.1.7mg.IV 10min.Patient I3-Alfentanil-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Den hollander 1992.Female.1.7mg.IV 10min.Patient I3|Reported time ",
+              "Y": "Den hollander 1992.Female.1.7mg.IV 10min.Patient I3|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Concentration ",
+              "CurveOptions": {
+                "Color": "0, 0, 255",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 400,
+            "ChartHeight": 400,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "OriginText": "Alfentanil\nden Holländer 1992 ind 3\n2019-06-18 14:04"
         }
       ]
     }
@@ -33363,23 +35852,23 @@
             "MolWeight": 416.52
           },
           "Values": [
-            389.30368,
-            273.6906,
-            220.3375,
-            171.0888,
-            121.3715,
-            86.88317,
-            45.3337,
-            39.23197,
-            26.84355,
-            14.5218105,
-            8.145106,
-            3.51546,
-            1.57312393,
-            0.6728596
+            0.389303684,
+            0.2736906,
+            0.2203375,
+            0.1710888,
+            0.1213715,
+            0.08688317,
+            0.0453337,
+            0.03923197,
+            0.02684355,
+            0.01452181,
+            0.008145106,
+            0.00351545983,
+            0.001573124,
+            0.0006728596
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -33396,23 +35885,23 @@
           "Source": "Goresky_1987_Figure_1.typical ind. 50 mgkg inf 30 sec.Reported time [min]"
         },
         "Values": [
+          0.0166666675,
+          0.0333333351,
+          0.05,
+          0.0833333358,
+          0.166666672,
+          0.25,
+          0.5,
+          0.75,
           1.0,
+          1.5,
           2.0,
           3.0,
-          5.0,
-          10.0,
-          15.0,
-          30.0,
-          45.0,
-          60.0,
-          90.0,
-          120.0,
-          180.0,
-          240.0,
-          300.0
+          4.0,
+          5.0
         ],
         "Dimension": "Time",
-        "Unit": "min"
+        "Unit": "h"
       }
     },
     {
@@ -34264,14 +36753,15 @@
           "Classifiables": [
             "den Holländer 1992 ind 1",
             "den Holländer 1992 ind 2",
-            "den Holländer 1992 ind 3",
+            "den Holländer 1992 ind 3 (for Ratioplot)",
             "den Holländer 1992 ind 4",
             "den Holländer 1992 ind 5",
             "den Holländer 1992 ind C2",
             "den Holländer 1992 ind C3",
             "den Holländer 1992 ind C4",
             "den Holländer 1992 ind C5",
-            "den Holländer 1992 ind C6"
+            "den Holländer 1992 ind C6",
+            "den Holländer 1992 ind 3"
           ]
         },
         {
@@ -34299,7 +36789,6 @@
         {
           "Name": "Meistelman 1987",
           "Classifiables": [
-            "Meistelman 1987 children",
             "Meistelman 1987 ped.1",
             "Meistelman 1987 ped.2",
             "Meistelman 1987 ped.3",
@@ -34307,7 +36796,8 @@
             "Meistelman 1987 ped.5",
             "Meistelman 1987 ped.6",
             "Meistelman 1987 ped.7",
-            "Meistelman 1987 ped.8"
+            "Meistelman 1987 ped.8",
+            "Meistelman 1987 children"
           ]
         }
       ]
