@@ -24399,6 +24399,7 @@
           ]
         }
       ]
+<<<<<<< HEAD
     },
     {
       "Name": "Goreski 1987 0.52y",
@@ -26170,6 +26171,8 @@
           ]
         }
       ]
+=======
+>>>>>>> 15233b5e1caa87976b29cab85cc1420552e5f77f
     }
   ],
   "Populations": [
@@ -28969,7 +28972,11 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nPhimmasone 2001, Alfentanil iv\n2019-06-14 13:22"
+=======
+          "OriginText": "Alfentanil\nden Holländer 1992 ind C2\n2019-06-16 14:21"
+>>>>>>> 15233b5e1caa87976b29cab85cc1420552e5f77f
         }
       ]
     },
@@ -29589,7 +29596,11 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nden Holländer 1992 ind C6\n2019-06-19 08:39"
+=======
+          "OriginText": "Alfentanil\nden Holländer 1992 ind 1\n2019-06-16 14:33"
+>>>>>>> 15233b5e1caa87976b29cab85cc1420552e5f77f
         }
       ]
     },
@@ -29974,7 +29985,11 @@
               "WatermarkSize": 32
             }
           },
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nden Holländer 1992 ind 3\n2019-06-18 14:00"
+=======
+          "OriginText": "Alfentanil\nden Holländer 1992 ind 3\n2019-06-16 14:40"
+>>>>>>> 15233b5e1caa87976b29cab85cc1420552e5f77f
         }
       ]
     },
@@ -30470,7 +30485,11 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nGoreski 1987 patnr 10\n2019-06-18 17:32"
+=======
+          "OriginText": "Alfentanil\nGoreski 1987 patnr 10\n2019-06-16 14:41"
+>>>>>>> 15233b5e1caa87976b29cab85cc1420552e5f77f
         }
       ]
     },
@@ -30594,7 +30613,11 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nGoreski 1987 patnr 11\n2019-06-19 08:27"
+=======
+          "OriginText": "Alfentanil\nGoreski 1987 patnr 11\n2019-06-16 14:41"
+>>>>>>> 15233b5e1caa87976b29cab85cc1420552e5f77f
         }
       ]
     },
@@ -32980,7 +33003,11 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nMeistelman 1987 ped.5\n2019-06-16 14:47"
+=======
+          "OriginText": "Alfentanil\nMeistelman 1987 ped.4\n2019-06-16 14:47"
+>>>>>>> 15233b5e1caa87976b29cab85cc1420552e5f77f
         }
       ]
     },
@@ -33110,7 +33137,11 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nMeistelman 1987 ped.6\n2019-06-16 14:47"
+=======
+          "OriginText": "Alfentanil\nMeistelman 1987 ped.5\n2019-06-16 14:47"
+>>>>>>> 15233b5e1caa87976b29cab85cc1420552e5f77f
         }
       ]
     },
@@ -33240,7 +33271,11 @@
             }
           ],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nMeistelman 1987 ped.7\n2019-06-14 13:28"
+=======
+          "OriginText": "Alfentanil\nMeistelman 1987 ped.6\n2019-06-16 14:47"
+>>>>>>> 15233b5e1caa87976b29cab85cc1420552e5f77f
         }
       ]
     },
@@ -33575,6 +33610,7 @@
           },
           "SecondaryYAxisSettings": [],
           "Name": "Time Profile Analysis",
+<<<<<<< HEAD
           "FontAndSize": {
             "ChartWidth": 600,
             "ChartHeight": 400,
@@ -33595,6 +33631,9 @@
             "DiagramBackColor": "White"
           },
           "OriginText": "Alfentanil\nMeistelman 1987 children\n2019-06-16 14:57"
+=======
+          "OriginText": "Alfentanil\nMeistelman 1987 ped.8\n2019-06-16 14:47"
+>>>>>>> 15233b5e1caa87976b29cab85cc1420552e5f77f
         }
       ]
     },
@@ -33634,9 +33673,41 @@
       ],
       "Parameters": [
         {
+<<<<<<< HEAD
           "Path": "Applications|Den Holländer ind3 1.7mg|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 10.0,
           "Unit": "min"
+=======
+          "Path": "ABCB1|Reference concentration",
+          "Value": 1.41,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "ATP1A2|Reference concentration",
+          "Value": 0.47661714,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+>>>>>>> 15233b5e1caa87976b29cab85cc1420552e5f77f
         }
       ],
       "OutputSelections": [
@@ -33745,7 +33816,89 @@
               "WatermarkSize": 32
             }
           },
+<<<<<<< HEAD
           "OriginText": "Alfentanil\nden Holländer 1992 ind 3\n2019-06-18 14:04"
+=======
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "Transparent",
+            "DiagramBackColor": "White"
+          },
+          "OriginText": "Alfentanil\nMeistelman 1987 children\n2019-06-16 14:57"
+        }
+      ]
+    }
+  ],
+  "ParameterIdentifications": [
+    {
+      "Name": "Parameter Identification 1",
+      "Simulations": [
+        "Goreski 1987 patnr 7"
+      ],
+      "Configuration": {
+        "LLOQMode": "SimulationOutputAsObservedDataLLOQ",
+        "RemoveLLOQMode": "Never",
+        "CalculateJacobian": false,
+        "Algorithm": {
+          "Name": "Levenberg - Marquardt (MPFit)",
+          "Properties": [
+            {
+              "Name": "ftol",
+              "Value": 0.001
+            },
+            {
+              "Name": "xtol",
+              "Value": 1E-06
+            },
+            {
+              "Name": "gtol",
+              "Value": 1E-10
+            },
+            {
+              "Name": "stepfactor",
+              "Value": 100.0
+            },
+            {
+              "Name": "maxiter",
+              "Value": 200
+            },
+            {
+              "Name": "maxfev",
+              "Value": 0
+            },
+            {
+              "Name": "epsfcn",
+              "Value": 1E-09
+            }
+          ]
+        }
+      },
+      "IdentificationParameters": [
+        {
+          "Name": "Surface area (plasma/interstitial)",
+          "Scaling": "Linear",
+          "LinkedParameters": [
+            "Goreski 1987 patnr 7|Neighborhoods|SmallIntestine_pls_SmallIntestine_int|Surface area (plasma/interstitial)"
+          ],
+          "Parameters": [
+            {
+              "Name": "Start value",
+              "Value": 1809.0571793524,
+              "Unit": "cm²"
+            },
+            {
+              "Name": "MinValue",
+              "Value": 0.0,
+              "Unit": "cm²"
+            },
+            {
+              "Name": "MaxValue",
+              "Value": 18090.5717935242,
+              "Unit": "cm²"
+            }
+          ]
+>>>>>>> 15233b5e1caa87976b29cab85cc1420552e5f77f
         }
       ]
     }
