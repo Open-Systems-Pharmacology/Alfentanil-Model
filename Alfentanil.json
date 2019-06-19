@@ -26814,7 +26814,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -26848,6 +26848,56 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "OriginText": "Alfentanil\nFerrier 1985, Alfentanil iv\n2019-06-14 13:19"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Ferrier 1985, Alfentanil iv-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Ferrier 1985, Alfentanil iv|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "255, 0, 0",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Ferrier et al. 1985 - healthy controls - Alfentanil 50 ugperkg iv-Alfentanil-Undefined-Undefined-Concentration",
+              "X": "Ferrier et al. 1985 - healthy controls - Alfentanil 50 ugperkg iv|Time",
+              "Y": "Ferrier et al. 1985 - healthy controls - Alfentanil 50 ugperkg iv|ObservedData|Undefined|Undefined|Alfentanil|Concentration",
+              "CurveOptions": {
+                "Color": "0, 0, 255",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "OriginText": "Alfentanil\nFerrier 1985, Alfentanil iv\n2019-06-14 13:19"
         }
       ]
@@ -26945,7 +26995,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -26979,6 +27029,60 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "OriginText": "Alfentanil\nKharasch 1997, Alfentanil iv\n2019-06-14 13:21"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 119.9134,
+              "Max": 131.267761,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -3.12077475,
+              "Max": 152.1199,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 1997, Alfentanil iv-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 1997, Alfentanil iv|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "255, 0, 0",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 1997, Alfentanil 20 ugperkg iv, n=9-Alfentanil-Peripheral Venous Blood-Plasma-Alf ",
+              "X": "Kharasch 1997, Alfentanil 20 ugperkg iv, n=9|Time ",
+              "Y": "Kharasch 1997, Alfentanil 20 ugperkg iv, n=9|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
+              "CurveOptions": {
+                "Color": "0, 0, 255",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "OriginText": "Alfentanil\nKharasch 1997, Alfentanil iv\n2019-06-14 13:21"
         }
       ]
@@ -27076,7 +27180,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -27110,6 +27214,60 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "OriginText": "Alfentanil\nKharasch 2004, Alfentanil iv\n2019-06-14 13:22"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 119.729568,
+              "Max": 128.129791,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -1.86113751,
+              "Max": 98.42892,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2004, Alfentanil iv-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2004, Alfentanil iv|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "255, 0, 0",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 2004, Alfentanil 15 ugperkg iv, n=10-Alfentanil-Peripheral Venous Blood-Plasma-Alf ",
+              "X": "Kharasch 2004, Alfentanil 15 ugperkg iv, n=10|Time ",
+              "Y": "Kharasch 2004, Alfentanil 15 ugperkg iv, n=10|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
+              "CurveOptions": {
+                "Color": "0, 0, 255",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "OriginText": "Alfentanil\nKharasch 2004, Alfentanil iv\n2019-06-14 13:22"
         }
       ]
@@ -27220,7 +27378,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "ng/ml",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -27254,6 +27412,60 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "OriginText": "Alfentanil\nKharasch 2004, Alfentanil po\n2019-06-14 13:22"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 143.526138,
+              "Max": 155.830887,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.377333879,
+              "Max": 56.44915,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2004, Alfentanil po-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2004, Alfentanil po|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "255, 0, 0",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 2004, Alfentanil 60 ugperkg po, n=10-Alfentanil-Peripheral Venous Blood-Plasma-Alf ",
+              "X": "Kharasch 2004, Alfentanil 60 ugperkg po, n=10|Time ",
+              "Y": "Kharasch 2004, Alfentanil 60 ugperkg po, n=10|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
+              "CurveOptions": {
+                "Color": "0, 0, 255",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "OriginText": "Alfentanil\nKharasch 2004, Alfentanil po\n2019-06-14 13:22"
         }
       ]
@@ -27351,7 +27563,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -27385,6 +27597,60 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "OriginText": "Alfentanil\nKharasch 2011b, Alfentanil iv\n2019-06-14 13:22"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 119.701836,
+              "Max": 128.207413,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -1.57063961,
+              "Max": 143.9029,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2011b, Alfentanil iv-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2011b, Alfentanil iv|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "255, 0, 0",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 2011b, Alfentanil 15 ugperkg iv, n=12-Alfentanil-Peripheral Venous Blood-Plasma-Alf ",
+              "X": "Kharasch 2011b, Alfentanil 15 ugperkg iv, n=12|Time ",
+              "Y": "Kharasch 2011b, Alfentanil 15 ugperkg iv, n=12|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
+              "CurveOptions": {
+                "Color": "0, 0, 255",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "OriginText": "Alfentanil\nKharasch 2011b, Alfentanil iv\n2019-06-14 13:22"
         }
       ]
@@ -27495,7 +27761,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -27529,6 +27795,60 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "OriginText": "Alfentanil\nKharasch 2011b, Alfentanil po\n2019-06-14 13:22"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 143.09111,
+              "Max": 152.743988,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -2.90043759,
+              "Max": 59.3276062,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kharasch 2011b, Alfentanil po-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kharasch 2011b, Alfentanil po|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "255, 0, 0",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kharasch 2011b, Alfentanil 75 ugperkg po, n=12-Alfentanil-Peripheral Venous Blood-Plasma-Alf ",
+              "X": "Kharasch 2011b, Alfentanil 75 ugperkg po, n=12|Time ",
+              "Y": "Kharasch 2011b, Alfentanil 75 ugperkg po, n=12|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
+              "CurveOptions": {
+                "Color": "0, 0, 255",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "OriginText": "Alfentanil\nKharasch 2011b, Alfentanil po\n2019-06-14 13:22"
         }
       ]
@@ -27626,7 +27946,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -27660,6 +27980,56 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "OriginText": "Alfentanil\nMeistelman 1987, 20µg/kg, adult male individual\n2019-06-14 13:22"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Meistelman 1987, 20µg/kg, adult male individual-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Meistelman 1987, 20µg/kg, adult male individual|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "255, 0, 0",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Meistelman_1987_Figure_1 adults-Alfentanil-Peripheral Venous Blood-Plasma-Alfentanil concentration ",
+              "X": "Meistelman_1987_Figure_1 adults|Reported time ",
+              "Y": "Meistelman_1987_Figure_1 adults|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alfentanil concentration ",
+              "CurveOptions": {
+                "Color": "0, 0, 255",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "OriginText": "Alfentanil\nMeistelman 1987, 20µg/kg, adult male individual\n2019-06-14 13:22"
         }
       ]
@@ -27757,7 +28127,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
@@ -27791,6 +28161,60 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "OriginText": "Alfentanil\nPhimmasone 2001, Alfentanil iv\n2019-06-14 13:22"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 115.666313,
+              "Max": 127.5973,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -2.62387156,
+              "Max": 152.126984,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Phimmasone 2001, Alfentanil iv-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Phimmasone 2001, Alfentanil iv|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "255, 0, 0",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Phimmasone 2001, Alfentanil 15 ugperkg iv, n=6-Alfentanil-Peripheral Venous Blood-Plasma-Alf ",
+              "X": "Phimmasone 2001, Alfentanil 15 ugperkg iv, n=6|Time ",
+              "Y": "Phimmasone 2001, Alfentanil 15 ugperkg iv, n=6|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
+              "CurveOptions": {
+                "Color": "0, 0, 255",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "OriginText": "Alfentanil\nPhimmasone 2001, Alfentanil iv\n2019-06-14 13:22"
         }
       ]
@@ -32417,6 +32841,87 @@
             "DiagramBackColor": "White"
           },
           "OriginText": "Alfentanil\nMeistelman 1987 children\n2019-06-16 14:57"
+        },
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "Concentration-Meistelman 1987 children-Alfentanil-Organism-Peripheral Venous Blood-Plasma",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Linear",
+                "Unit": "µg/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "Black",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Meistelman_1987_Figure_children",
+              "Goreskey 1987.Undefined.50µg/kg.IV 30sec infusion.typical child"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Meistelman_1987_Figure_1-Alfentanil-Peripheral Venous Blood-Plasma-Alfentanil concentration ",
+                "Path": "Meistelman_1987_Figure_children|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alfentanil concentration ",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Caption": "Goreskey 1987.Undefined.50µg/kg.IV 30sec infusion.typical child-Alfentanil-Peripheral Venous Blood-Plasma-Concentration ",
+                "Path": "Goreskey 1987.Undefined.50µg/kg.IV 30sec infusion.typical child|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Concentration ",
+                "CurveOptions": {
+                  "Color": "0, 0, 0",
+                  "LineStyle": "None",
+                  "Symbol": "Diamond"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": true
+          },
+          "YAxisSettings": {
+            "AutoRange": true
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "ChartWidth": 600,
+            "ChartHeight": 400,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "Transparent",
+            "DiagramBackColor": "White"
+          },
+          "OriginText": "Alfentanil\nMeistelman 1987 children\n2019-06-16 14:57"
         }
       ]
     },
@@ -32554,6 +33059,69 @@
             }
           ],
           "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "ChartWidth": 400,
+            "ChartHeight": 400,
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "OriginText": "Alfentanil\nden Holländer 1992 ind 3\n2019-06-18 14:04"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "min",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "White",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "den Holländer 1992 ind 3-Alfentanil-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "den Holländer 1992 ind 3|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "255, 0, 0",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Den hollander 1992.Female.1.7mg.IV 10min.Patient I3-Alfentanil-Peripheral Venous Blood-Plasma-Concentration ",
+              "X": "Den hollander 1992.Female.1.7mg.IV 10min.Patient I3|Reported time ",
+              "Y": "Den hollander 1992.Female.1.7mg.IV 10min.Patient I3|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Concentration ",
+              "CurveOptions": {
+                "Color": "0, 0, 255",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
           "FontAndSize": {
             "ChartWidth": 400,
             "ChartHeight": 400,
@@ -32784,23 +33352,23 @@
             "MolWeight": 416.52
           },
           "Values": [
-            0.1497299,
-            0.05826826,
-            0.04748355,
-            0.04641589,
-            0.04335479,
-            0.02879117,
-            0.02846564,
-            0.01933837,
-            0.015939299,
-            0.008724504,
-            0.005536176,
-            0.003718522,
-            0.002413882,
-            0.001584893
+            149.7299,
+            58.26826,
+            47.48355,
+            46.41589,
+            43.3547935,
+            28.79117,
+            28.465641,
+            19.33837,
+            15.9393,
+            8.72450352,
+            5.53617573,
+            3.71852183,
+            2.413882,
+            1.584893
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -33319,23 +33887,23 @@
             "MolWeight": 416.52
           },
           "Values": [
-            0.00388888922,
-            0.02101852,
-            0.02740741,
-            0.0343518481,
-            0.0378703736,
-            0.03740741,
-            0.03537037,
-            0.03472222,
-            0.029629631,
-            0.02333333,
-            0.01472222,
-            0.009814815,
-            0.006851852,
-            0.00287037
+            3.88888931,
+            21.01852,
+            27.40741,
+            34.35185,
+            37.8703728,
+            37.40741,
+            35.37037,
+            34.72222,
+            29.629631,
+            23.33333,
+            14.7222195,
+            9.814815,
+            6.851852,
+            2.87037
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -33836,21 +34404,21 @@
             "MolWeight": 416.52
           },
           "Values": [
-            0.102,
-            0.0307029113,
-            0.023678761,
-            0.02007077,
-            0.0145915905,
-            0.0116591407,
-            0.007270068,
-            0.004533256,
-            0.002860291,
-            0.00239600218,
-            0.00140837394,
-            0.001125336
+            102.0,
+            30.7029114,
+            23.67876,
+            20.07077,
+            14.59159,
+            11.6591406,
+            7.270068,
+            4.533256,
+            2.860291,
+            2.396002,
+            1.408374,
+            1.125336
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -34096,7 +34664,7 @@
             0.9846827
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -34303,22 +34871,22 @@
             "MolWeight": 416.52
           },
           "Values": [
-            0.09061057,
-            0.03930596,
-            0.02711748,
-            0.0222642,
-            0.0174507312,
-            0.01305777,
-            0.009327672,
-            0.005933347,
-            0.003283771,
-            0.001903693,
-            0.000906105561,
-            0.000501478033,
-            0.0001982573
+            90.61057,
+            39.3059578,
+            27.11748,
+            22.2642,
+            17.4507313,
+            13.05777,
+            9.327673,
+            5.933347,
+            3.283771,
+            1.903693,
+            0.9061056,
+            0.501478,
+            0.1982573
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -34557,22 +35125,22 @@
             "MolWeight": 416.52
           },
           "Values": [
-            0.08535762,
-            0.03820892,
-            0.026839979,
-            0.023190679,
-            0.01689655,
-            0.01373676,
-            0.00803833,
-            0.003870995,
-            0.002407407,
-            0.001038974,
-            0.0004650795,
-            0.0003073968,
-            0.0001935153
+            85.35762,
+            38.20892,
+            26.83998,
+            23.19068,
+            16.89655,
+            13.73676,
+            8.03833,
+            3.870995,
+            2.407407,
+            1.038974,
+            0.465079516,
+            0.3073968,
+            0.1935153
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -34774,22 +35342,22 @@
             "MolWeight": 416.0
           },
           "Values": [
-            0.334158182,
-            0.2400156,
-            0.187264308,
-            0.1163773,
-            0.08533707,
-            0.06939327,
-            0.04312514,
-            0.02518823,
-            0.02518823,
-            0.01056701,
-            0.01056701,
-            0.004916055,
-            0.002754988
+            334.158173,
+            240.0156,
+            187.264313,
+            116.377304,
+            85.3370743,
+            69.39327,
+            43.12514,
+            25.18823,
+            25.18823,
+            10.56701,
+            10.56701,
+            4.916055,
+            2.754988
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
@@ -35211,22 +35779,22 @@
             "MolWeight": 416.52
           },
           "Values": [
-            0.1196451,
-            0.08197552,
-            0.05953013,
-            0.04856415,
-            0.03492673,
-            0.0266233813,
-            0.02150956,
-            0.01431494,
-            0.01101806,
-            0.007332687,
-            0.00488001434,
-            0.003247723,
-            0.002268765
+            119.645096,
+            81.9755249,
+            59.53013,
+            48.56415,
+            34.92673,
+            26.62338,
+            21.50956,
+            14.31494,
+            11.0180607,
+            7.332687,
+            4.880014,
+            3.24772286,
+            2.268765
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/l"
         }
       ],
       "BaseGrid": {
