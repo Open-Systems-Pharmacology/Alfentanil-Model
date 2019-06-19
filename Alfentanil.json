@@ -27040,7 +27040,7 @@
               "GridLines": false,
               "Visible": true,
               "Min": 119.9134,
-              "Max": 131.267761,
+              "Max": 131.2678,
               "DefaultColor": "White",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -27052,7 +27052,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": -3.12077475,
+              "Min": -3.120775,
               "Max": 152.1199,
               "DefaultColor": "White",
               "DefaultLineStyle": "Solid",
@@ -27224,8 +27224,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 119.729568,
-              "Max": 128.129791,
+              "Min": 119.7296,
+              "Max": 128.1298,
               "DefaultColor": "White",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -27237,7 +27237,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": -1.86113751,
+              "Min": -1.861138,
               "Max": 98.42892,
               "DefaultColor": "White",
               "DefaultLineStyle": "Solid",
@@ -27422,8 +27422,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 143.526138,
-              "Max": 155.830887,
+              "Min": 143.5261,
+              "Max": 155.8309,
               "DefaultColor": "White",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -27435,7 +27435,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.377333879,
+              "Min": 0.3773339,
               "Max": 56.44915,
               "DefaultColor": "White",
               "DefaultLineStyle": "Solid",
@@ -27607,8 +27607,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 119.701836,
-              "Max": 128.207413,
+              "Min": 119.7018,
+              "Max": 128.2074,
               "DefaultColor": "White",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -27620,7 +27620,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": -1.57063961,
+              "Min": -1.57064,
               "Max": 143.9029,
               "DefaultColor": "White",
               "DefaultLineStyle": "Solid",
@@ -27805,8 +27805,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 143.09111,
-              "Max": 152.743988,
+              "Min": 143.0911,
+              "Max": 152.744,
               "DefaultColor": "White",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -27818,8 +27818,8 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": -2.90043759,
-              "Max": 59.3276062,
+              "Min": -2.900438,
+              "Max": 59.32761,
               "DefaultColor": "White",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
@@ -28171,7 +28171,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 115.666313,
+              "Min": 115.6663,
               "Max": 127.5973,
               "DefaultColor": "White",
               "DefaultLineStyle": "None",
@@ -28184,8 +28184,8 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": -2.62387156,
-              "Max": 152.126984,
+              "Min": -2.623872,
+              "Max": 152.127,
               "DefaultColor": "White",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
@@ -32624,8 +32624,7 @@
       "Name": "Meistelman 1987 children",
       "Model": "4Comp",
       "ObservedData": [
-        "Meistelman_1987_Figure_children",
-        "Goreskey 1987.Undefined.50µg/kg.IV 30sec infusion.typical child"
+        "Meistelman_1987_Figure_children"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -32789,8 +32788,7 @@
           },
           "ObservedDataCollection": {
             "ObservedData": [
-              "Meistelman_1987_Figure_children",
-              "Goreskey 1987.Undefined.50µg/kg.IV 30sec infusion.typical child"
+              "Meistelman_1987_Figure_children"
             ],
             "ApplyGrouping": false,
             "CurveOptions": [
@@ -32800,15 +32798,6 @@
                 "CurveOptions": {
                   "LineStyle": "None",
                   "Symbol": "Circle"
-                }
-              },
-              {
-                "Caption": "Goreskey 1987.Undefined.50µg/kg.IV 30sec infusion.typical child-Alfentanil-Peripheral Venous Blood-Plasma-Concentration ",
-                "Path": "Goreskey 1987.Undefined.50µg/kg.IV 30sec infusion.typical child|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Concentration ",
-                "CurveOptions": {
-                  "Color": "0, 0, 0",
-                  "LineStyle": "None",
-                  "Symbol": "Diamond"
                 }
               }
             ]
@@ -32870,8 +32859,7 @@
           },
           "ObservedDataCollection": {
             "ObservedData": [
-              "Meistelman_1987_Figure_children",
-              "Goreskey 1987.Undefined.50µg/kg.IV 30sec infusion.typical child"
+              "Meistelman_1987_Figure_children"
             ],
             "ApplyGrouping": false,
             "CurveOptions": [
@@ -32881,15 +32869,6 @@
                 "CurveOptions": {
                   "LineStyle": "None",
                   "Symbol": "Circle"
-                }
-              },
-              {
-                "Caption": "Goreskey 1987.Undefined.50µg/kg.IV 30sec infusion.typical child-Alfentanil-Peripheral Venous Blood-Plasma-Concentration ",
-                "Path": "Goreskey 1987.Undefined.50µg/kg.IV 30sec infusion.typical child|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Concentration ",
-                "CurveOptions": {
-                  "Color": "0, 0, 0",
-                  "LineStyle": "None",
-                  "Symbol": "Diamond"
                 }
               }
             ]
