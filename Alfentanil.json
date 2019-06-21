@@ -1,5 +1,5 @@
 {
-  "Version": 75,
+  "Version": 76,
   "Individuals": [
     {
       "Name": "den Holländer 1992 ind C1 male 1.5y 6.5kg not simulated (bmi out of range)",
@@ -26808,7 +26808,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -26819,7 +26819,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -26831,7 +26831,7 @@
               "X": "Time",
               "Y": "Ferrier 1985, Alfentanil iv|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -26840,7 +26840,7 @@
               "X": "Ferrier et al. 1985 - healthy controls - Alfentanil 50 ugperkg iv|Time",
               "Y": "Ferrier et al. 1985 - healthy controls - Alfentanil 50 ugperkg iv|ObservedData|Undefined|Undefined|Alfentanil|Concentration",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -26858,7 +26858,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -26869,7 +26869,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -26881,7 +26881,7 @@
               "X": "Time",
               "Y": "Ferrier 1985, Alfentanil iv|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -26890,7 +26890,7 @@
               "X": "Ferrier et al. 1985 - healthy controls - Alfentanil 50 ugperkg iv|Time",
               "Y": "Ferrier et al. 1985 - healthy controls - Alfentanil 50 ugperkg iv|ObservedData|Undefined|Undefined|Alfentanil|Concentration",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -26989,7 +26989,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -27000,7 +27000,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -27012,7 +27012,7 @@
               "X": "Time",
               "Y": "Kharasch 1997, Alfentanil iv|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -27021,7 +27021,7 @@
               "X": "Kharasch 1997, Alfentanil 20 ugperkg iv, n=9|Time ",
               "Y": "Kharasch 1997, Alfentanil 20 ugperkg iv, n=9|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -27041,7 +27041,7 @@
               "Visible": true,
               "Min": 119.9134,
               "Max": 131.2678,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -27054,7 +27054,7 @@
               "Visible": true,
               "Min": -3.120775,
               "Max": 152.1199,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -27066,7 +27066,7 @@
               "X": "Time",
               "Y": "Kharasch 1997, Alfentanil iv|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -27075,7 +27075,7 @@
               "X": "Kharasch 1997, Alfentanil 20 ugperkg iv, n=9|Time ",
               "Y": "Kharasch 1997, Alfentanil 20 ugperkg iv, n=9|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -27174,7 +27174,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -27185,7 +27185,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -27197,7 +27197,7 @@
               "X": "Time",
               "Y": "Kharasch 2004, Alfentanil iv|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -27206,7 +27206,7 @@
               "X": "Kharasch 2004, Alfentanil 15 ugperkg iv, n=10|Time ",
               "Y": "Kharasch 2004, Alfentanil 15 ugperkg iv, n=10|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -27226,7 +27226,7 @@
               "Visible": true,
               "Min": 119.7296,
               "Max": 128.1298,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -27239,7 +27239,7 @@
               "Visible": true,
               "Min": -1.861138,
               "Max": 98.42892,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -27251,7 +27251,7 @@
               "X": "Time",
               "Y": "Kharasch 2004, Alfentanil iv|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -27260,7 +27260,7 @@
               "X": "Kharasch 2004, Alfentanil 15 ugperkg iv, n=10|Time ",
               "Y": "Kharasch 2004, Alfentanil 15 ugperkg iv, n=10|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -27372,7 +27372,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -27383,7 +27383,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -27395,7 +27395,7 @@
               "X": "Time",
               "Y": "Kharasch 2004, Alfentanil po|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -27404,7 +27404,7 @@
               "X": "Kharasch 2004, Alfentanil 60 ugperkg po, n=10|Time ",
               "Y": "Kharasch 2004, Alfentanil 60 ugperkg po, n=10|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -27424,7 +27424,7 @@
               "Visible": true,
               "Min": 143.5261,
               "Max": 155.8309,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -27437,7 +27437,7 @@
               "Visible": true,
               "Min": 0.3773339,
               "Max": 56.44915,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -27449,7 +27449,7 @@
               "X": "Time",
               "Y": "Kharasch 2004, Alfentanil po|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -27458,7 +27458,7 @@
               "X": "Kharasch 2004, Alfentanil 60 ugperkg po, n=10|Time ",
               "Y": "Kharasch 2004, Alfentanil 60 ugperkg po, n=10|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -27557,7 +27557,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -27568,7 +27568,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -27580,7 +27580,7 @@
               "X": "Time",
               "Y": "Kharasch 2011b, Alfentanil iv|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -27589,7 +27589,7 @@
               "X": "Kharasch 2011b, Alfentanil 15 ugperkg iv, n=12|Time ",
               "Y": "Kharasch 2011b, Alfentanil 15 ugperkg iv, n=12|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -27609,7 +27609,7 @@
               "Visible": true,
               "Min": 119.7018,
               "Max": 128.2074,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -27622,7 +27622,7 @@
               "Visible": true,
               "Min": -1.57064,
               "Max": 143.9029,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -27634,7 +27634,7 @@
               "X": "Time",
               "Y": "Kharasch 2011b, Alfentanil iv|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -27643,7 +27643,7 @@
               "X": "Kharasch 2011b, Alfentanil 15 ugperkg iv, n=12|Time ",
               "Y": "Kharasch 2011b, Alfentanil 15 ugperkg iv, n=12|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -27755,7 +27755,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -27766,7 +27766,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -27778,7 +27778,7 @@
               "X": "Time",
               "Y": "Kharasch 2011b, Alfentanil po|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -27787,7 +27787,7 @@
               "X": "Kharasch 2011b, Alfentanil 75 ugperkg po, n=12|Time ",
               "Y": "Kharasch 2011b, Alfentanil 75 ugperkg po, n=12|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -27807,7 +27807,7 @@
               "Visible": true,
               "Min": 143.0911,
               "Max": 152.744,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -27820,7 +27820,7 @@
               "Visible": true,
               "Min": -2.900438,
               "Max": 59.32761,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -27832,7 +27832,7 @@
               "X": "Time",
               "Y": "Kharasch 2011b, Alfentanil po|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -27841,7 +27841,7 @@
               "X": "Kharasch 2011b, Alfentanil 75 ugperkg po, n=12|Time ",
               "Y": "Kharasch 2011b, Alfentanil 75 ugperkg po, n=12|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -27940,7 +27940,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -27951,7 +27951,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -27963,7 +27963,7 @@
               "X": "Time",
               "Y": "Meistelman 1987, 20µg/kg, adult male individual|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -27972,7 +27972,7 @@
               "X": "Meistelman_1987_Figure_1 adults|Reported time ",
               "Y": "Meistelman_1987_Figure_1 adults|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alfentanil concentration ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -27990,7 +27990,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -28001,7 +28001,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -28013,7 +28013,7 @@
               "X": "Time",
               "Y": "Meistelman 1987, 20µg/kg, adult male individual|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -28022,7 +28022,7 @@
               "X": "Meistelman_1987_Figure_1 adults|Reported time ",
               "Y": "Meistelman_1987_Figure_1 adults|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alfentanil concentration ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -28121,7 +28121,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -28132,7 +28132,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -28144,7 +28144,7 @@
               "X": "Time",
               "Y": "Phimmasone 2001, Alfentanil iv|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -28153,7 +28153,7 @@
               "X": "Phimmasone 2001, Alfentanil 15 ugperkg iv, n=6|Time ",
               "Y": "Phimmasone 2001, Alfentanil 15 ugperkg iv, n=6|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -28173,7 +28173,7 @@
               "Visible": true,
               "Min": 115.6663,
               "Max": 127.5973,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -28186,7 +28186,7 @@
               "Visible": true,
               "Min": -2.623872,
               "Max": 152.127,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -28198,7 +28198,7 @@
               "X": "Time",
               "Y": "Phimmasone 2001, Alfentanil iv|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -28207,7 +28207,7 @@
               "X": "Phimmasone 2001, Alfentanil 15 ugperkg iv, n=6|Time ",
               "Y": "Phimmasone 2001, Alfentanil 15 ugperkg iv, n=6|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alf ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -28310,7 +28310,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -28321,7 +28321,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -28333,7 +28333,7 @@
               "X": "Time",
               "Y": "den Holländer 1992 ind C2|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -28434,7 +28434,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -28445,7 +28445,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -28457,7 +28457,7 @@
               "X": "Time",
               "Y": "den Holländer 1992 ind C3|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -28558,7 +28558,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -28569,7 +28569,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -28581,7 +28581,7 @@
               "X": "Time",
               "Y": "den Holländer 1992 ind C4|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -28682,7 +28682,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -28693,7 +28693,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -28705,7 +28705,7 @@
               "X": "Time",
               "Y": "den Holländer 1992 ind C5|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -28806,7 +28806,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -28817,7 +28817,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -28829,7 +28829,7 @@
               "X": "Time",
               "Y": "den Holländer 1992 ind C6|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -28930,7 +28930,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -28941,7 +28941,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -28953,7 +28953,7 @@
               "X": "Time",
               "Y": "den Holländer 1992 ind 1|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -29054,7 +29054,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -29065,7 +29065,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -29077,7 +29077,7 @@
               "X": "Time",
               "Y": "den Holländer 1992 ind 2|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -29178,7 +29178,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -29189,7 +29189,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -29201,7 +29201,7 @@
               "X": "Time",
               "Y": "den Holländer 1992 ind 3 (for Ratioplot)|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -29315,7 +29315,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -29326,7 +29326,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -29338,7 +29338,7 @@
               "X": "Time",
               "Y": "den Holländer 1992 ind 4|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -29439,7 +29439,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -29450,7 +29450,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -29462,7 +29462,7 @@
               "X": "Time",
               "Y": "den Holländer 1992 ind 5|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -29563,7 +29563,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -29574,7 +29574,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -29586,7 +29586,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 1|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -29687,7 +29687,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -29698,7 +29698,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -29710,7 +29710,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 10|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -29811,7 +29811,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -29822,7 +29822,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -29834,7 +29834,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 11|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -29935,7 +29935,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -29946,7 +29946,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -29958,7 +29958,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 12|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -30059,7 +30059,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -30070,7 +30070,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -30082,7 +30082,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 14|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -30183,7 +30183,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -30194,7 +30194,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -30206,7 +30206,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 15|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -30307,7 +30307,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -30318,7 +30318,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -30330,7 +30330,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 16|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -30431,7 +30431,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -30442,7 +30442,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -30454,7 +30454,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 17|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -30555,7 +30555,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -30566,7 +30566,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -30578,7 +30578,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 18|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -30679,7 +30679,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -30690,7 +30690,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -30702,7 +30702,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 2|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -30803,7 +30803,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -30814,7 +30814,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -30826,7 +30826,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 3|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -30927,7 +30927,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -30938,7 +30938,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -30950,7 +30950,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 4|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -31051,7 +31051,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -31062,7 +31062,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -31074,7 +31074,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 5|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -31175,7 +31175,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -31186,7 +31186,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -31198,7 +31198,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 6|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -31299,7 +31299,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -31310,7 +31310,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -31322,7 +31322,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 7|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -31423,7 +31423,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -31434,7 +31434,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -31446,7 +31446,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 8|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -31547,7 +31547,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -31558,7 +31558,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -31570,7 +31570,7 @@
               "X": "Time",
               "Y": "Goreski 1987 patnr 9|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -31677,7 +31677,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -31688,7 +31688,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -31700,7 +31700,7 @@
               "X": "Time",
               "Y": "Meistelman 1987 ped.1|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -31807,7 +31807,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -31818,7 +31818,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -31830,7 +31830,7 @@
               "X": "Time",
               "Y": "Meistelman 1987 ped.2|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -31937,7 +31937,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -31948,7 +31948,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -31960,7 +31960,7 @@
               "X": "Time",
               "Y": "Meistelman 1987 ped.3|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -32067,7 +32067,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -32078,7 +32078,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -32090,7 +32090,7 @@
               "X": "Time",
               "Y": "Meistelman 1987 ped.4|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -32197,7 +32197,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -32208,7 +32208,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -32220,7 +32220,7 @@
               "X": "Time",
               "Y": "Meistelman 1987 ped.5|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -32327,7 +32327,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -32338,7 +32338,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -32350,7 +32350,7 @@
               "X": "Time",
               "Y": "Meistelman 1987 ped.6|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -32457,7 +32457,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -32468,7 +32468,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -32480,7 +32480,7 @@
               "X": "Time",
               "Y": "Meistelman 1987 ped.7|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -32587,7 +32587,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -32598,7 +32598,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -32610,7 +32610,7 @@
               "X": "Time",
               "Y": "Meistelman 1987 ped.8|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             }
@@ -32771,7 +32771,7 @@
                 "Unit": "µg/l",
                 "QuantityPath": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                 "QuantityType": "Drug, Observer",
-                "Color": "Black",
+                "Color": "#000000",
                 "Area": "DataArea"
               }
             ],
@@ -32826,8 +32826,8 @@
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "Bottom",
-            "BackColor": "Transparent",
-            "DiagramBackColor": "White"
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Alfentanil\nMeistelman 1987 children\n2019-06-16 14:57"
         },
@@ -32842,7 +32842,7 @@
                 "Unit": "µg/l",
                 "QuantityPath": "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
                 "QuantityType": "Drug, Observer",
-                "Color": "Black",
+                "Color": "#000000",
                 "Area": "DataArea"
               }
             ],
@@ -32897,8 +32897,8 @@
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "Bottom",
-            "BackColor": "Transparent",
-            "DiagramBackColor": "White"
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Alfentanil\nMeistelman 1987 children\n2019-06-16 14:57"
         }
@@ -32998,7 +32998,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -33009,7 +33009,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -33021,7 +33021,7 @@
               "X": "Time",
               "Y": "den Holländer 1992 ind 3|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -33030,7 +33030,7 @@
               "X": "Den hollander 1992.Female.1.7mg.IV 10min.Patient I3|Reported time ",
               "Y": "Den hollander 1992.Female.1.7mg.IV 10min.Patient I3|ObservedData|Arterial Blood|Plasma|Alfentanil|Concentration ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -33061,7 +33061,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -33072,7 +33072,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -33084,7 +33084,7 @@
               "X": "Time",
               "Y": "den Holländer 1992 ind 3|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "255, 0, 0",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
@@ -33093,7 +33093,7 @@
               "X": "Den hollander 1992.Female.1.7mg.IV 10min.Patient I3|Reported time ",
               "Y": "Den hollander 1992.Female.1.7mg.IV 10min.Patient I3|ObservedData|Arterial Blood|Plasma|Alfentanil|Concentration ",
               "CurveOptions": {
-                "Color": "0, 0, 255",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
