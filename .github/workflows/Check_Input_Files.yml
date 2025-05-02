@@ -13,9 +13,7 @@ jobs:
   utf8check:
     uses: Open-Systems-Pharmacology/Workflows/.github/workflows/UTF8Check.yml@main
     with:
-      file-extensions: 'R\|json\|md'  #File extension(s) to check separated by \| Examples:
-                                      #R
-                                      #R\|json
+      file-extensions: 'R\|json\|md'  #File extension(s) to check separated by \| 
 
   Spellcheck:
     uses: Open-Systems-Pharmacology/Workflows/.github/workflows/SpellChecker.yml@main
@@ -25,31 +23,3 @@ jobs:
     with:
       qualification-plan: 'Evaluation/Input/evaluation_plan.json'
 
-  test-check-bom:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        
-      - name: Test Check for BOM in CSV, JSON and MD files
-        run: |
-          shopt -s globstar
-          shopt -s nocaseglob
-          bom_found=false
-          for file in **/*.csv **/*.json **/*.md; do
-            if [ -f "$file" ]; then
-              bom=$(hexdump -n 3 -e '/1 "%02x"' "$file")
-              if [ "$bom" = "efbbbf" ]; then
-                echo "Error: File $file has a BOM"
-                echo "::error file=$file::File has BOM"
-                bom_found=true
-              else
-                echo "File $file is valid"
-              fi
-            fi
-          done
-          if [ "$bom_found" = true ] ; then
-            echo "At least one file has BOM, failing the action"
-            exit 1
-          fi
-      

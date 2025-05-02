@@ -12,13 +12,16 @@ jobs:
   check-folder:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
       - name: Check if subfolder exists
         id: check_folder
         run: |
           if [ -d ".$REPORT_PATH" ]; then
-            echo "::set-output name=REPORT_FOLDER_EXISTS::true"
+            echo "REPORT_FOLDER_EXISTS=true" >> "$GITHUB_OUTPUT"
           else
-            echo "::set-output name=REPORT_FOLDER_EXISTS::false"
+            echo "REPORT_FOLDER_EXISTS=false" >> "$GITHUB_OUTPUT"
           fi
     outputs:
       exists: ${{ steps.check_folder.outputs.exists }}
