@@ -29,6 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test Check for BOM in CSV, JSON and MD files
+        shell: bash
         run: |
           shopt -s globstar
           shopt -s nocaseglob
