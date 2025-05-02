@@ -25,17 +25,18 @@ jobs:
           fi
     outputs:
       REPORT_FOLDER_EXISTS: ${{ steps.check_folder.outputs.REPORT_FOLDER_EXISTS }}
+      REPORT_PATH: ${{ env.REPORT_PATH }}
 
   markdown-link-check:
     needs: check-folder
     if: ${{ needs.check-folder.outputs.REPORT_FOLDER_EXISTS == 'true' }}
     uses: Open-Systems-Pharmacology/Workflows/.github/workflows/MarkdownLinksCheck.yml@main
     with:
-      folder-path: ${{env.REPORT_PATH}}
+      folder-path: ${{ needs.check-folder.outputs.REPORT_PATH }} # env.XXX cannot be used in with:
 
   crossref-check-with-anchors:
     needs: check-folder
     if: ${{ needs.check-folder.outputs.REPORT_FOLDER_EXISTS == 'true' }}
     uses: Open-Systems-Pharmacology/Workflows/.github/workflows/MarkdownCrossrefCheck_withAnchors.yml@main
     with:
-      folder-path: ${{env.REPORT_PATH}}
+      folder-path: ${{ needs.check-folder.outputs.REPORT_PATH }} # env.XXX cannot be used in with:
