@@ -31,11 +31,11 @@ jobs:
     if: ${{ needs.check-folder.outputs.REPORT_FOLDER_EXISTS == 'true' }}
     uses: Open-Systems-Pharmacology/Workflows/.github/workflows/MarkdownLinksCheck.yml@main
     with:
-      folder-path: '$REPORT_PATH'
+      folder-path: '${{ env.REPORT_PATH }}'
 
   crossref-check-with-anchors:
     needs: check-folder
     if: ${{ needs.check-folder.outputs.REPORT_FOLDER_EXISTS == 'true' }}
     uses: Open-Systems-Pharmacology/Workflows/.github/workflows/MarkdownCrossrefCheck_withAnchors.yml@main
     with:
-      folder-path: '$REPORT_PATH'
+      folder-path: '${{ env.REPORT_PATH }}'
