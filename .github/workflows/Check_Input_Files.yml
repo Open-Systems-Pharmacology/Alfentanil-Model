@@ -26,6 +26,7 @@ jobs:
       qualification-plan: 'Evaluation/Input/evaluation_plan.json'
 
   test-check-bom:
+    runs-on: ubuntu-latest
     steps:
       - name: Test Check for BOM in CSV, JSON and MD files
         run: |
