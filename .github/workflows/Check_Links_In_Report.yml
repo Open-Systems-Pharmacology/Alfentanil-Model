@@ -18,7 +18,7 @@ jobs:
       - name: Check if subfolder exists
         id: check_folder
         run: |
-          if [ -d ".$REPORT_PATH" ]; then
+          if [ -d "./$REPORT_PATH" ]; then
             echo "REPORT_FOLDER_EXISTS=true" >> "$GITHUB_OUTPUT"
           else
             echo "REPORT_FOLDER_EXISTS=false" >> "$GITHUB_OUTPUT"
