@@ -24,7 +24,7 @@ jobs:
             echo "REPORT_FOLDER_EXISTS=false" >> "$GITHUB_OUTPUT"
           fi
     outputs:
-      REPORT_FOLDER_EXISTS: ${{ steps.check_folder.outputs.exists }}
+      REPORT_FOLDER_EXISTS: ${{ steps.check_folder.outputs.REPORT_FOLDER_EXISTS }}
 
   markdown-link-check:
     needs: check-folder
