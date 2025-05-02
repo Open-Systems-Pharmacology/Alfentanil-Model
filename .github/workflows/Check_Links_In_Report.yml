@@ -7,7 +7,7 @@ permissions:
 
 env:
   REPORT_PATH: Evaluation/report
-  
+
 jobs:
   check-folder:
     runs-on: ubuntu-latest
@@ -16,21 +16,23 @@ jobs:
         id: check_folder
         run: |
           if [ -d ".$REPORT_PATH" ]; then
-            echo "REPORT_FOLDER_EXISTS=true" >> $GITHUB_ENV
+            echo "::set-output name=REPORT_FOLDER_EXISTS::true"
           else
-            echo "REPORT_FOLDER_EXISTS=false" >> $GITHUB_ENV
+            echo "::set-output name=REPORT_FOLDER_EXISTS::false"
           fi
+    outputs:
+      exists: ${{ steps.check_folder.outputs.exists }}
 
   markdown-link-check:
     needs: check-folder
-    if: ${{ env.REPORT_FOLDER_EXISTS == 'true' }}
+    if: ${{ needs.check-folder.outputs.REPORT_FOLDER_EXISTS == 'true' }}
     uses: Open-Systems-Pharmacology/Workflows/.github/workflows/MarkdownLinksCheck.yml@main
     with:
       folder-path: '$REPORT_PATH'
 
   crossref-check-with-anchors:
     needs: check-folder
-    if: ${{ env.REPORT_FOLDER_EXISTS == 'true' }}
+    if: ${{ needs.check-folder.outputs.REPORT_FOLDER_EXISTS == 'true' }}
     uses: Open-Systems-Pharmacology/Workflows/.github/workflows/MarkdownCrossrefCheck_withAnchors.yml@main
     with:
       folder-path: '$REPORT_PATH'
