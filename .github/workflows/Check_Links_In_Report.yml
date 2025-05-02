@@ -23,14 +23,14 @@ jobs:
 
   markdown-link-check:
     needs: check-folder
-    if: $REPORT_FOLDER_EXISTS == 'true'
+    if: env.REPORT_FOLDER_EXISTS == 'true'
     uses: Open-Systems-Pharmacology/Workflows/.github/workflows/MarkdownLinksCheck.yml@main
     with:
       folder-path: '$REPORT_PATH'
 
   crossref-check-with-anchors:
     needs: check-folder
-    if: $REPORT_FOLDER_EXISTS == 'true'
+    if: env.REPORT_FOLDER_EXISTS == 'true'
     uses: Open-Systems-Pharmacology/Workflows/.github/workflows/MarkdownCrossrefCheck_withAnchors.yml@main
     with:
       folder-path: '$REPORT_PATH'
