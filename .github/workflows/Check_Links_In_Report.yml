@@ -1,0 +1,36 @@
+name: Check links and cross-references in markdown report
+
+on: [push]
+
+permissions:
+  contents: read
+
+env:
+  REPORT_PATH: Evaluation/report
+  
+jobs:
+  check-folder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if subfolder exists
+        id: check_folder
+        run: |
+          if [ -d ".$REPORT_PATH" ]; then
+            echo "REPORT_FOLDER_EXISTS=true" >> $GITHUB_ENV
+          else
+            echo "REPORT_FOLDER_EXISTS=false" >> $GITHUB_ENV
+          fi
+
+  markdown-link-check:
+    needs: check-folder
+    if: $REPORT_FOLDER_EXISTS == 'true'
+    uses: Open-Systems-Pharmacology/Workflows/.github/workflows/MarkdownLinksCheck.yml@main
+    with:
+      folder-path: '$REPORT_PATH'
+
+  crossref-check-with-anchors:
+    needs: check-folder
+    if: $REPORT_FOLDER_EXISTS == 'true'
+    uses: Open-Systems-Pharmacology/Workflows/.github/workflows/MarkdownCrossrefCheck_withAnchors.yml@main
+    with:
+      folder-path: '$REPORT_PATH'
