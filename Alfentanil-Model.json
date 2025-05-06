@@ -1,5 +1,1093 @@
 {
-  "Version": 77,
+  "Version": 80,
+  "ExpressionProfiles": [
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "AADAC",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "AADAC|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "AADAC|Relative expression in blood cells",
+          "Value": 3.9102564103E-05
+        },
+        {
+          "Path": "AADAC|Relative expression in plasma",
+          "Value": 3.9102564103E-05
+        },
+        {
+          "Path": "AADAC|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "AADAC|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
+          "Value": 4.8717948718E-05
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
+          "Value": 3.9743589744E-05
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|AADAC|Relative expression",
+          "Value": 0.0011923076923
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|AADAC|Relative expression",
+          "Value": 0.0026602564103
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
+          "Value": 5.7051282051E-05
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|AADAC|Relative expression",
+          "Value": 0.00010384615385
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|AADAC|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|AADAC|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|AADAC|Relative expression",
+          "Value": 0.0269230769
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|AADAC|Relative expression",
+          "Value": 0.00020833333333
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|AADAC|Relative expression",
+          "Value": 0.1474358974
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|AADAC|Relative expression",
+          "Value": 0.2544871795
+        },
+        {
+          "Path": "Organism|Spleen|Intracellular|AADAC|Relative expression",
+          "Value": 0.00037115384615
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|AADAC|Relative expression",
+          "Value": 0.0775641026
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A5",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "CYP3A5|Reference concentration",
+          "Value": 0.04,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A5|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A5|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.0041810344828
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.1681034483
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A5|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A5|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.1620689655
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A5|Relative expression",
+          "Value": 0.5379310345
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A5"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2C9",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "CYP2C9|Reference concentration",
+          "Value": 3.84,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2C9|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2C9|t1/2 (liver)",
+          "Value": 104.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.00039687350455
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
+          "Value": 4.5940341362E-05
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.0018822778753
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2C9|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2C9|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.0002131121391
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2C9|Relative expression",
+          "Value": 0.1199553358
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP2C9"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP1A2",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 1.8,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 39.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
+          "Value": 0.00029559748428
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
+          "Value": 4.4025157233E-06
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
+          "Value": 2.4947589099E-05
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP1A2"
+      }
+    },
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "ABCB1",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "ABCB1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "ABCB1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "ABCB1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Bone|Intracellular|ABCB1|Relative expression",
+          "Value": 0.0341950646
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1072855464
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|ABCB1|Relative expression",
+          "Value": 0.024559342
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|ABCB1|Relative expression",
+          "Value": 0.059106933
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|ABCB1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1562867215
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1562867215
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1562867215
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1562867215
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1562867215
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|ABCB1|Relative expression",
+          "Value": 0.2702702703
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|ABCB1|Relative expression",
+          "Value": 0.2702702703
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|ABCB1|Relative expression",
+          "Value": 0.0927144536
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|ABCB1|Relative expression",
+          "Value": 0.0180963572
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|ABCB1|Relative expression",
+          "Value": 0.0200940071
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|ABCB1|Relative expression",
+          "Value": 0.3960047004
+        },
+        {
+          "Path": "Organism|Spleen|Intracellular|ABCB1|Relative expression",
+          "Value": 0.1047003525
+        },
+        {
+          "Path": "Organism|Stomach|Intracellular|ABCB1|Relative expression",
+          "Value": 0.0367802585
+        }
+      ],
+      "TransportType": "Efflux",
+      "Expression": [
+        {
+          "Name": "Bone",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "EffluxBrainInterstitialToPlasma",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "EffluxBrainTissueToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "EffluxMucosaIntracellularToLumen",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "EffluxIntracellularToInterstitial",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "EffluxBloodCellsToPlasma"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "EffluxInterstitialToPlasma"
+        }
+      ]
+    },
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "OATP1B1",
+      "Category": "Standard European Male for DDI",
+      "Parameters": [
+        {
+          "Path": "OATP1B1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "OATP1B1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "OATP1B1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.00014166666667
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.0141666667
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.0008253968254
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|OATP1B1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
+          "Value": 4.0079365079E-05
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.00064682539683
+        }
+      ],
+      "TransportType": "Influx",
+      "Expression": [
+        {
+          "Name": "Bone",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainPlasmaToInterstitial",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainInterstitialToTissue",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "InfluxPlasmaToBloodCells"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "InfluxPlasmaToInterstitial"
+        }
+      ]
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "Kharasch 2012",
+      "Parameters": [
+        {
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 8.6130459586,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 5' on 2019-11-29 13:42"
+          }
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      }
+    }
+  ],
   "Individuals": [
     {
       "Name": "Standard European Male for DDI",
@@ -17,610 +1105,14 @@
           "Unit": "year(s)"
         }
       },
-      "Molecules": [
-        {
-          "Name": "CYP3A4",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.0041682898325
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.00078691079081
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0053603428126
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.00042695753798
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0727697702
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP3A4"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 4.32,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "AADAC",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "BloodCells",
-              "Value": 3.9102564103E-05
-            },
-            {
-              "Name": "Plasma",
-              "Value": 3.9102564103E-05
-            },
-            {
-              "Name": "Bone",
-              "Value": 4.8717948718E-05
-            },
-            {
-              "Name": "Brain",
-              "Value": 3.9743589744E-05
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.0011923076923
-            },
-            {
-              "Name": "Heart",
-              "Value": 0.0026602564103
-            },
-            {
-              "Name": "Kidney",
-              "Value": 5.7051282051E-05
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.0269230769
-            },
-            {
-              "Name": "Muscle",
-              "Value": 0.00020833333333
-            },
-            {
-              "Name": "Pancreas",
-              "Value": 0.1474358974
-            },
-            {
-              "Name": "Spleen",
-              "Value": 0.00037115384615
-            },
-            {
-              "Name": "Stomach",
-              "Value": 0.0775641026
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "LargeIntestine",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "ColonAscendens",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "ColonTransversum",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "ColonDescendens",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "ColonSigmoid",
-              "Value": 0.00010384615385
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "CYP3A5",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.0041810344828
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.1681034483
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.1620689655
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.5379310345
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP3A5"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 0.04,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "CYP2C9",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.00039687350455
-            },
-            {
-              "Name": "Gonads",
-              "Value": 4.5940341362E-05
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0018822778753
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.0002131121391
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.1199553358
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP2C9"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 3.84,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 104.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "CYP1A2",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Gonads",
-              "Value": 0.00029559748428
-            },
-            {
-              "Name": "Kidney",
-              "Value": 4.4025157233E-06
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 2.4947589099E-05
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP1A2"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.8,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 39.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "ABCB1",
-          "Type": "Transporter",
-          "TransportType": "Efflux",
-          "Expression": [
-            {
-              "Name": "Bone",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0341950646
-            },
-            {
-              "Name": "Brain",
-              "MembraneLocation": "BloodBrainBarrier",
-              "Value": 0.1072855464
-            },
-            {
-              "Name": "Gonads",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.024559342
-            },
-            {
-              "Name": "Heart",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.059106933
-            },
-            {
-              "Name": "Kidney",
-              "MembraneLocation": "Apical",
-              "Value": 1.0
-            },
-            {
-              "Name": "Periportal",
-              "MembraneLocation": "Apical",
-              "Value": 0.2702702703
-            },
-            {
-              "Name": "Pericentral",
-              "MembraneLocation": "Apical",
-              "Value": 0.2702702703
-            },
-            {
-              "Name": "Lung",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0927144536
-            },
-            {
-              "Name": "Muscle",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0180963572
-            },
-            {
-              "Name": "Pancreas",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0200940071
-            },
-            {
-              "Name": "Spleen",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.1047003525
-            },
-            {
-              "Name": "Stomach",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0367802585
-            },
-            {
-              "Name": "SmallIntestine",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "LargeIntestine",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "Duodenum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "UpperJejunum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "LowerJejunum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "UpperIleum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "LowerIleum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "ColonAscendens",
-              "MembraneLocation": "Apical",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "ColonTransversum",
-              "MembraneLocation": "Apical",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "ColonDescendens",
-              "MembraneLocation": "Apical",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "ColonSigmoid",
-              "MembraneLocation": "Apical",
-              "Value": 0.1562867215
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "OATP1B1",
-          "Type": "Transporter",
-          "TransportType": "Influx",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "MembraneLocation": "BloodBrainBarrier",
-              "Value": 0.00014166666667
-            },
-            {
-              "Name": "Gonads",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0141666667
-            },
-            {
-              "Name": "Heart",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0008253968254
-            },
-            {
-              "Name": "Periportal",
-              "MembraneLocation": "Basolateral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "MembraneLocation": "Basolateral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "MembraneLocation": "Basolateral",
-              "Value": 4.0079365079E-05
-            },
-            {
-              "Name": "Muscle",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.00064682539683
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        }
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Standard European Male for DDI",
+        "AADAC|Human|Standard European Male for DDI",
+        "CYP3A5|Human|Standard European Male for DDI",
+        "CYP2C9|Human|Standard European Male for DDI",
+        "CYP1A2|Human|Standard European Male for DDI",
+        "ABCB1|Human|Standard European Male for DDI",
+        "OATP1B1|Human|Standard European Male for DDI"
       ],
       "Description": "Version 1.1"
     },
@@ -640,615 +1132,14 @@
           "Unit": "year(s)"
         }
       },
-      "Molecules": [
-        {
-          "Name": "CYP3A4",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.0041682898325
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.00078691079081
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0053603428126
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.00042695753798
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0727697702
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0727697702
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP3A4"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 8.6130459586,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Parameter Identification 5' on 2019-11-29 13:42"
-              }
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "AADAC",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "BloodCells",
-              "Value": 3.9102564103E-05
-            },
-            {
-              "Name": "Plasma",
-              "Value": 3.9102564103E-05
-            },
-            {
-              "Name": "Bone",
-              "Value": 4.8717948718E-05
-            },
-            {
-              "Name": "Brain",
-              "Value": 3.9743589744E-05
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.0011923076923
-            },
-            {
-              "Name": "Heart",
-              "Value": 0.0026602564103
-            },
-            {
-              "Name": "Kidney",
-              "Value": 5.7051282051E-05
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.0269230769
-            },
-            {
-              "Name": "Muscle",
-              "Value": 0.00020833333333
-            },
-            {
-              "Name": "Pancreas",
-              "Value": 0.1474358974
-            },
-            {
-              "Name": "Spleen",
-              "Value": 0.00037115384615
-            },
-            {
-              "Name": "Stomach",
-              "Value": 0.0775641026
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "LargeIntestine",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.2544871795
-            },
-            {
-              "Name": "ColonAscendens",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "ColonTransversum",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "ColonDescendens",
-              "Value": 0.00010384615385
-            },
-            {
-              "Name": "ColonSigmoid",
-              "Value": 0.00010384615385
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "CYP3A5",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.0041810344828
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.1681034483
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.1620689655
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.5379310345
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.5379310345
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP3A5"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 0.04,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "CYP2C9",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.00039687350455
-            },
-            {
-              "Name": "Gonads",
-              "Value": 4.5940341362E-05
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0018822778753
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.0002131121391
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.1199553358
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.1199553358
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP2C9"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 3.84,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 104.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "CYP1A2",
-          "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Gonads",
-              "Value": 0.00029559748428
-            },
-            {
-              "Name": "Kidney",
-              "Value": 4.4025157233E-06
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 2.4947589099E-05
-            }
-          ],
-          "Ontogeny": {
-            "Name": "CYP1A2"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.8,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 39.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "ABCB1",
-          "Type": "Transporter",
-          "TransportType": "Efflux",
-          "Expression": [
-            {
-              "Name": "Bone",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0341950646
-            },
-            {
-              "Name": "Brain",
-              "MembraneLocation": "BloodBrainBarrier",
-              "Value": 0.1072855464
-            },
-            {
-              "Name": "Gonads",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.024559342
-            },
-            {
-              "Name": "Heart",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.059106933
-            },
-            {
-              "Name": "Kidney",
-              "MembraneLocation": "Apical",
-              "Value": 1.0
-            },
-            {
-              "Name": "Periportal",
-              "MembraneLocation": "Apical",
-              "Value": 0.2702702703
-            },
-            {
-              "Name": "Pericentral",
-              "MembraneLocation": "Apical",
-              "Value": 0.2702702703
-            },
-            {
-              "Name": "Lung",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0927144536
-            },
-            {
-              "Name": "Muscle",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0180963572
-            },
-            {
-              "Name": "Pancreas",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0200940071
-            },
-            {
-              "Name": "Spleen",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.1047003525
-            },
-            {
-              "Name": "Stomach",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0367802585
-            },
-            {
-              "Name": "SmallIntestine",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "LargeIntestine",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "Duodenum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "UpperJejunum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "LowerJejunum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "UpperIleum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "LowerIleum",
-              "MembraneLocation": "Apical",
-              "Value": 0.3960047004
-            },
-            {
-              "Name": "ColonAscendens",
-              "MembraneLocation": "Apical",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "ColonTransversum",
-              "MembraneLocation": "Apical",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "ColonDescendens",
-              "MembraneLocation": "Apical",
-              "Value": 0.1562867215
-            },
-            {
-              "Name": "ColonSigmoid",
-              "MembraneLocation": "Apical",
-              "Value": 0.1562867215
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "OATP1B1",
-          "Type": "Transporter",
-          "TransportType": "Influx",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "MembraneLocation": "BloodBrainBarrier",
-              "Value": 0.00014166666667
-            },
-            {
-              "Name": "Gonads",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0141666667
-            },
-            {
-              "Name": "Heart",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.0008253968254
-            },
-            {
-              "Name": "Periportal",
-              "MembraneLocation": "Basolateral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "MembraneLocation": "Basolateral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "MembraneLocation": "Basolateral",
-              "Value": 4.0079365079E-05
-            },
-            {
-              "Name": "Muscle",
-              "MembraneLocation": "Basolateral",
-              "Value": 0.00064682539683
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
-        }
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Kharasch 2012",
+        "AADAC|Human|Standard European Male for DDI",
+        "CYP3A5|Human|Standard European Male for DDI",
+        "CYP2C9|Human|Standard European Male for DDI",
+        "CYP1A2|Human|Standard European Male for DDI",
+        "ABCB1|Human|Standard European Male for DDI",
+        "OATP1B1|Human|Standard European Male for DDI"
       ]
     }
   ],
@@ -1570,6 +1461,11 @@
           ],
           "Parameters": [
             {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
               "Name": "NumberOfRepetitions",
               "Value": 2.0,
               "ValueOrigin": {
@@ -1666,6 +1562,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Ferrier 1985, Alfentanil iv 0.05 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Ferrier 1985 - healthy control patients - Alfentanil - IV - 0.05 mg/kg - Plasma - agg. (n=10)"
+        }
+      ],
       "Individual": "Standard European Male for DDI",
       "Compounds": [
         {
@@ -1749,6 +1652,23 @@
             }
           ],
           "Name": "Ferrier 1985, Alfentanil iv 0.05 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nFerrier 1985, Alfentanil iv 0.05 mg/kg\n2019-11-29 13:35"
         },
         {
@@ -1799,6 +1719,23 @@
             }
           ],
           "Name": "Ferrier 1985, Alfentanil iv 0.05 mg/kg - linear",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nFerrier 1985, Alfentanil iv 0.05 mg/kg\n2019-11-29 13:35"
         }
       ]
@@ -1839,6 +1776,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Kharasch 1997, Alfentanil iv 0.02 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kharasch 1997 - Control (Perpetrator Placebo) - Alfentanil - IV - 20 µg/kg - Plasma - agg. (n=9)"
+        }
       ],
       "Individual": "Standard European Male for DDI",
       "Compounds": [
@@ -1923,6 +1867,23 @@
             }
           ],
           "Name": "Kharasch 1997, Alfentanil iv 0.02 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 1997, Alfentanil iv 0.02 mg/kg\n2019-11-29 13:35"
         },
         {
@@ -1973,6 +1934,23 @@
             }
           ],
           "Name": "Kharasch 1997, Alfentanil iv 0.02 mg/kg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 1997, Alfentanil iv 0.02 mg/kg\n2019-11-29 13:35"
         }
       ]
@@ -2013,6 +1991,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Kharasch 2004, Alfentanil iv 0.015 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kharasch 2004 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=10)"
+        }
       ],
       "Individual": "Standard European Male for DDI",
       "Compounds": [
@@ -2097,6 +2082,23 @@
             }
           ],
           "Name": "Kharasch 2004, Alfentanil iv 0.015 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 2004, Alfentanil iv 0.015 mg/kg\n2019-11-29 13:34"
         },
         {
@@ -2147,6 +2149,23 @@
             }
           ],
           "Name": "Kharasch 2004, Alfentanil iv 0.015 mg/kg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 2004, Alfentanil iv 0.015 mg/kg\n2019-11-29 13:34"
         }
       ]
@@ -2187,7 +2206,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|60 µg/kg PO|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|60 µg/kg PO|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2414,6 +2433,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Kharasch 2004, Alfentanil po 0.06 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kharasch 2004 - po #1 (60 µg/kg) Control (Perpetrator Placebo) - Alfentanil - PO - 60 µg/kg - Plasma - agg. (n=10)"
+        }
       ],
       "Individual": "Standard European Male for DDI",
       "Compounds": [
@@ -2504,6 +2530,23 @@
             }
           ],
           "Name": "Kharasch 2004, Alfentanil po 0.06 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 2004, Alfentanil po 0.06 mg/kg\n2019-11-29 13:34"
         },
         {
@@ -2554,6 +2597,23 @@
             }
           ],
           "Name": "Kharasch 2004, Alfentanil po 0.06 mg/kg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 2004, Alfentanil po 0.06 mg/kg\n2019-11-29 13:34"
         }
       ]
@@ -2594,6 +2654,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Kharasch 2011, Alfentanil iv 0.015 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kharasch 2011 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)"
+        }
       ],
       "Individual": "Standard European Male for DDI",
       "Compounds": [
@@ -2678,6 +2745,23 @@
             }
           ],
           "Name": "Kharasch 2011, Alfentanil iv 0.015 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 2011, Alfentanil iv 0.015 mg/kg\n2019-11-29 13:34"
         },
         {
@@ -2728,6 +2812,23 @@
             }
           ],
           "Name": "Kharasch 2011, Alfentanil iv 0.015 mg/kg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 2011, Alfentanil iv 0.015 mg/kg\n2019-11-29 13:34"
         }
       ]
@@ -2768,7 +2869,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|75 µg/kg PO|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|75 µg/kg PO|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2996,6 +3097,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Kharasch 2011, Alfentanil po 0.075 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kharasch 2011 - po Control (Perpetrator Placebo) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)"
+        }
+      ],
       "Individual": "Standard European Male for DDI",
       "Compounds": [
         {
@@ -3085,6 +3193,23 @@
             }
           ],
           "Name": "Kharasch 2011, Alfentanil po 0.075 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 2011, Alfentanil po 0.075 mg/kg\n2019-11-29 13:34"
         },
         {
@@ -3135,6 +3260,23 @@
             }
           ],
           "Name": "Kharasch 2011, Alfentanil po 0.075 mg/kg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 2011, Alfentanil po 0.075 mg/kg\n2019-11-29 13:34"
         }
       ]
@@ -3175,6 +3317,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Meistelman 1987, 20µg/kg, adult male individual|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Meistelman_1987_Figure_1 adults"
+        }
       ],
       "Individual": "Standard European Male for DDI",
       "Compounds": [
@@ -3259,6 +3408,23 @@
             }
           ],
           "Name": "Meistelman 1987, 20µg/kg, adult male individual - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nMeistelman 1987, 20µg/kg, adult male individual\n2019-11-29 13:32"
         },
         {
@@ -3309,6 +3475,23 @@
             }
           ],
           "Name": "Meistelman 1987, 20µg/kg, adult male individual - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nMeistelman 1987, 20µg/kg, adult male individual\n2019-11-29 13:32"
         }
       ]
@@ -3349,6 +3532,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Phimmasone 2001, Alfentanil iv 0.015 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Phimmasone 2001 - Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=6)"
+        }
       ],
       "Individual": "Standard European Male for DDI",
       "Compounds": [
@@ -3433,6 +3623,23 @@
             }
           ],
           "Name": "Phimmasone 2001, Alfentanil iv 0.015 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nPhimmasone 2001, Alfentanil iv 0.015 mg/kg\n2019-11-29 13:33"
         },
         {
@@ -3483,6 +3690,23 @@
             }
           ],
           "Name": "Phimmasone 2001, Alfentanil iv 0.015 mg/kg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nPhimmasone 2001, Alfentanil iv 0.015 mg/kg\n2019-11-29 13:33"
         }
       ]
@@ -3526,6 +3750,28 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Kharasch 2011b, Alfentanil IV 1 mg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kharasch 2011b - Alfentanil IV Control sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Kharasch 2011b, Alfentanil IV 1 mg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kharasch 2011b - Alfentanil IV Control simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Kharasch 2011b, Alfentanil IV 1 mg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Kharasch 2011b, Alfentanil IV 1 mg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)"
+        }
       ],
       "Individual": "Standard European Male for DDI",
       "Compounds": [
@@ -3643,6 +3889,23 @@
             }
           ],
           "Name": "Kharasch 2011b, Alfentanil IV 1 mg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 2011b, Alfentanil IV 1 mg\n2019-11-29 13:33"
         },
         {
@@ -3726,6 +3989,23 @@
             }
           ],
           "Name": "Kharasch 2011b, Alfentanil IV 1 mg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 2011b, Alfentanil IV 1 mg\n2019-11-29 13:33"
         }
       ]
@@ -3767,12 +4047,12 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Kharasch 2011b 4 mg PO|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Kharasch 2011b 4 mg PO|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Kharasch 2011b 4 mg PO|Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Kharasch 2011b 4 mg PO|Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -4000,6 +4280,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Kharasch 2011b, Alfentanil PO 4 mg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kharasch 2011b - Alfentanil PO Control sequential - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Kharasch 2011b, Alfentanil PO 4 mg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kharasch 2011b - Alfentanil PO Control simultaneous - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)"
+        }
+      ],
       "Individual": "Standard European Male for DDI",
       "Compounds": [
         {
@@ -4100,6 +4392,23 @@
             }
           ],
           "Name": "Kharasch 2011b, Alfentanil PO 4 mg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 2011b, Alfentanil PO 4 mg\n2019-11-29 13:28"
         },
         {
@@ -4161,6 +4470,23 @@
             }
           ],
           "Name": "Kharasch 2011b, Alfentanil PO 4 mg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 2011b, Alfentanil PO 4 mg\n2019-11-29 13:28"
         }
       ]
@@ -4201,6 +4527,13 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Kharasch 2012, Alfentanil iv 0.02 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kharasch2012_Alfentanil_alone_IV"
+        }
       ],
       "Individual": "Kharasch 2012",
       "Compounds": [
@@ -4287,6 +4620,23 @@
             }
           ],
           "Name": "Kharasch 2012, Alfentanil iv 0.02 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 2012, Alfentanil iv 0.02 mg/kg\n2019-11-29 13:44"
         },
         {
@@ -4337,6 +4687,23 @@
             }
           ],
           "Name": "Kharasch 2012, Alfentanil iv 0.02 mg/kg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 2012, Alfentanil iv 0.02 mg/kg\n2019-11-29 13:44"
         }
       ]
@@ -4377,13 +4744,20 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|43 µg/kg PO (Kharasch 2012)|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|43 µg/kg PO (Kharasch 2012)|Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Kharasch 2012, Alfentanil po 0.043 mg/kg|Organism|PeripheralVenousBlood|Alfentanil|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Kharasch2012_Alfentanil_alone_po"
+        }
       ],
       "Individual": "Kharasch 2012",
       "Compounds": [
@@ -4478,6 +4852,23 @@
             }
           ],
           "Name": "Kharasch 2012, Alfentanil po 0.043 mg/kg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 2012, Alfentanil po 0.043 mg/kg\n2019-11-29 13:43"
         },
         {
@@ -4528,6 +4919,23 @@
             }
           ],
           "Name": "Kharasch 2012, Alfentanil po 0.043 mg/kg - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Alfentanil\nKharasch 2012, Alfentanil po 0.043 mg/kg\n2019-11-29 13:43"
         }
       ]
@@ -4557,31 +4965,38 @@
           "Properties": [
             {
               "Name": "ftol",
-              "Value": 0.001
+              "Value": 0.001,
+              "Type": "Double"
             },
             {
               "Name": "xtol",
-              "Value": 1E-06
+              "Value": 1E-06,
+              "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10
+              "Value": 1E-10,
+              "Type": "Double"
             },
             {
               "Name": "stepfactor",
-              "Value": 100.0
+              "Value": 100.0,
+              "Type": "Double"
             },
             {
               "Name": "maxiter",
-              "Value": 200.0
+              "Value": 200.0,
+              "Type": "Double"
             },
             {
               "Name": "maxfev",
-              "Value": 0.0
+              "Value": 0.0,
+              "Type": "Double"
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09
+              "Value": 1E-09,
+              "Type": "Double"
             }
           ]
         }
@@ -5036,31 +5451,38 @@
           "Properties": [
             {
               "Name": "ftol",
-              "Value": 0.001
+              "Value": 0.001,
+              "Type": "Double"
             },
             {
               "Name": "xtol",
-              "Value": 1E-06
+              "Value": 1E-06,
+              "Type": "Double"
             },
             {
               "Name": "gtol",
-              "Value": 1E-10
+              "Value": 1E-10,
+              "Type": "Double"
             },
             {
               "Name": "stepfactor",
-              "Value": 100.0
+              "Value": 100.0,
+              "Type": "Double"
             },
             {
               "Name": "maxiter",
-              "Value": 200.0
+              "Value": 200.0,
+              "Type": "Double"
             },
             {
               "Name": "maxfev",
-              "Value": 0.0
+              "Value": 0.0,
+              "Type": "Double"
             },
             {
               "Name": "epsfcn",
-              "Value": 1E-09
+              "Value": 1E-09,
+              "Type": "Double"
             }
           ]
         }
@@ -5105,48 +5527,54 @@
       "Name": "Meistelman_1987_Figure_1 adults",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\projects\\Internal\\PEQ\\Alfentanil\\Data\\Meistelman_1987_Figure_1.xlsx.Adults"
-        },
-        {
           "Name": "File",
-          "Value": "Meistelman_1987_Figure_1"
+          "Value": "Meistelman_1987_Figure_1",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Adults"
+          "Value": "Adults",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Study Id",
-          "Value": "Meistelman 1987"
+          "Value": "Meistelman 1987",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "20 µg/kg"
+          "Value": "20 µg/kg",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Patient Id",
-          "Value": "adults"
+          "Value": "adults",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -5156,14 +5584,11 @@
             {
               "Name": "SD ",
               "QuantityInfo": {
-                "Name": "SD ",
                 "Path": "Meistelman_1987_Figure_1 adults|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|SD "
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2019-03-15T14:00:12.9197176+01:00",
-                "Source": "Meistelman_1987_Figure_1.Adults.SD [ng/mL]",
                 "MolWeight": 416.52
               },
               "Values": [
@@ -5186,14 +5611,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Alfentanil concentration ",
             "Path": "Meistelman_1987_Figure_1 adults|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Alfentanil concentration "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-03-15T14:00:12.9197176+01:00",
-            "Source": "Meistelman_1987_Figure_1.Adults.Alfentanil concentration [ng/mL]",
             "MolWeight": 416.52
           },
           "Values": [
@@ -5218,15 +5640,12 @@
       "BaseGrid": {
         "Name": "Reported time ",
         "QuantityInfo": {
-          "Name": "Reported time ",
           "Path": "Meistelman_1987_Figure_1 adults|Reported time ",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-03-15T14:00:12.9197176+01:00",
-          "Source": "Meistelman_1987_Figure_1.Adults.Reported time [h]"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.0166666675,
@@ -5252,75 +5671,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 277.0
+          "Value": 277.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kharasch 1997"
+          "Value": "Kharasch 1997",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9232132"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/9232132",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 2"
+          "Value": "Fig. 2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Control (Perpetrator Placebo)"
+          "Value": "Control (Perpetrator Placebo)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 9.0
+          "Value": 9.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "20 µg/kg"
+          "Value": "20 µg/kg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "Arith. SEM converted to arith. SD"
+          "Value": "Arith. SEM converted to arith. SD",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -5330,13 +5767,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Kharasch 1997 - Control (Perpetrator Placebo) - Alfentanil - IV - 20 µg/kg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 416.52
               },
               "Values": [
@@ -5360,13 +5795,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Kharasch 1997 - Control (Perpetrator Placebo) - Alfentanil - IV - 20 µg/kg - Plasma - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 416.52
           },
           "Values": [
@@ -5392,14 +5825,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Kharasch 1997 - Control (Perpetrator Placebo) - Alfentanil - IV - 20 µg/kg - Plasma - agg. (n=9)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.02,
@@ -5426,88 +5857,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 282.0
+          "Value": 282.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kharasch 2004"
+          "Value": "Kharasch 2004",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/15536460"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/15536460",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1"
+          "Value": "Fig. 1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "iv Control (Perpetrator Placebo)"
+          "Value": "iv Control (Perpetrator Placebo)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 10.0
+          "Value": 10.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "15 µg/kg"
+          "Value": "15 µg/kg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "Fasted"
+          "Value": "Fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Kharasch 2004 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 416.52
           },
           "Values": [
@@ -5532,14 +5979,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Kharasch 2004 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=10)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.0833333358,
@@ -5565,75 +6010,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 287.0
+          "Value": 287.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kharasch 2004"
+          "Value": "Kharasch 2004",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/15536460"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/15536460",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 4"
+          "Value": "Fig. 4",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "po #1 (60 µg/kg) Control (Perpetrator Placebo)"
+          "Value": "po #1 (60 µg/kg) Control (Perpetrator Placebo)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 10.0
+          "Value": 10.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "60 µg/kg"
+          "Value": "60 µg/kg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "Solution"
+          "Value": "Solution",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "Fasted"
+          "Value": "Fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -5643,13 +6106,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Kharasch 2004 - po #1 (60 µg/kg) Control (Perpetrator Placebo) - Alfentanil - PO - 60 µg/kg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 416.52
               },
               "Values": [
@@ -5673,13 +6134,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Kharasch 2004 - po #1 (60 µg/kg) Control (Perpetrator Placebo) - Alfentanil - PO - 60 µg/kg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 416.52
           },
           "Values": [
@@ -5705,14 +6164,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Kharasch 2004 - po #1 (60 µg/kg) Control (Perpetrator Placebo) - Alfentanil - PO - 60 µg/kg - Plasma - agg. (n=10)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.0833333358,
@@ -5739,75 +6196,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 298.0
+          "Value": 298.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kharasch 2011"
+          "Value": "Kharasch 2011",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/21562488"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/21562488",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1B"
+          "Value": "Fig. 1B",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "iv Control (Perpetrator Placebo)"
+          "Value": "iv Control (Perpetrator Placebo)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 12.0
+          "Value": 12.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "15 µg/kg"
+          "Value": "15 µg/kg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -5817,13 +6292,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Kharasch 2011 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 416.52
               },
               "Values": [
@@ -5848,13 +6321,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Kharasch 2011 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 416.52
           },
           "Values": [
@@ -5881,14 +6352,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Kharasch 2011 - iv Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=12)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.0,
@@ -5916,75 +6385,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 308.0
+          "Value": 308.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kharasch 2011"
+          "Value": "Kharasch 2011",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/21562488"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/21562488",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 2B"
+          "Value": "Fig. 2B",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "po Control (Perpetrator Placebo)"
+          "Value": "po Control (Perpetrator Placebo)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 12.0
+          "Value": 12.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "75 µg/kg"
+          "Value": "75 µg/kg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -5994,13 +6481,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Kharasch 2011 - po Control (Perpetrator Placebo) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 416.52
               },
               "Values": [
@@ -6026,13 +6511,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Kharasch 2011 - po Control (Perpetrator Placebo) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 416.52
           },
           "Values": [
@@ -6060,14 +6543,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Kharasch 2011 - po Control (Perpetrator Placebo) - Alfentanil - PO - 75 µg/kg - Plasma - agg. (n=12)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.0,
@@ -6096,75 +6577,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 390.0
+          "Value": 390.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Phimmasone 2001"
+          "Value": "Phimmasone 2001",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/11753266"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/11753266",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1, Tab.1&2"
+          "Value": "Fig. 1, Tab.1&2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Control (Perpetrator Placebo)"
+          "Value": "Control (Perpetrator Placebo)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 6.0
+          "Value": 6.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "15 µg/kg"
+          "Value": "15 µg/kg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "bolus"
+          "Value": "bolus",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6174,13 +6673,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Phimmasone 2001 - Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 416.52
               },
               "Values": [
@@ -6206,13 +6703,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Phimmasone 2001 - Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 416.52
           },
           "Values": [
@@ -6240,14 +6735,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Phimmasone 2001 - Control (Perpetrator Placebo) - Alfentanil - IV - 15 µg/kg - Plasma - agg. (n=6)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.0333333351,
@@ -6276,75 +6769,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 758.0
+          "Value": 758.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Ferrier 1985"
+          "Value": "Ferrier 1985",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/3920934"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/3920934",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1"
+          "Value": "Fig. 1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "healthy control patients"
+          "Value": "healthy control patients",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 10.0
+          "Value": 10.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.05 mg/kg"
+          "Value": "0.05 mg/kg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6354,13 +6865,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Ferrier 1985 - healthy control patients - Alfentanil - IV - 0.05 mg/kg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 416.52
               },
               "Values": [
@@ -6383,13 +6892,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Ferrier 1985 - healthy control patients - Alfentanil - IV - 0.05 mg/kg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 416.52
           },
           "Values": [
@@ -6414,14 +6921,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Ferrier 1985 - healthy control patients - Alfentanil - IV - 0.05 mg/kg - Plasma - agg. (n=10)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.0833,
@@ -6447,75 +6952,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 759.0
+          "Value": 759.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Ferrier 1985"
+          "Value": "Ferrier 1985",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/3920934"
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/3920934",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1"
+          "Value": "Fig. 1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "cirrhosis patients patients"
+          "Value": "cirrhosis patients patients",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 11.0
+          "Value": 11.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "0.05 mg/kg"
+          "Value": "0.05 mg/kg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6525,13 +7048,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Ferrier 1985 - cirrhosis patients patients - Alfentanil - IV - 0.05 mg/kg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 416.52
               },
               "Values": [
@@ -6553,13 +7074,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Ferrier 1985 - cirrhosis patients patients - Alfentanil - IV - 0.05 mg/kg - Plasma - agg. (n=11)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 416.52
           },
           "Values": [
@@ -6583,14 +7102,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Ferrier 1985 - cirrhosis patients patients - Alfentanil - IV - 0.05 mg/kg - Plasma - agg. (n=11)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.0833,
@@ -6615,88 +7132,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 760.0
+          "Value": 760.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kharasch 2011b"
+          "Value": "Kharasch 2011b",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3584707/"
+          "Value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3584707/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1A"
+          "Value": "Fig. 1A",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Alfentanil IV Control sequential"
+          "Value": "Alfentanil IV Control sequential",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 6.0
+          "Value": 6.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "1 mg"
+          "Value": "1 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Kharasch 2011b - Alfentanil IV Control sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 416.52
           },
           "Values": [
@@ -6725,14 +7258,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Kharasch 2011b - Alfentanil IV Control sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.0833,
@@ -6762,88 +7293,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 761.0
+          "Value": 761.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kharasch 2011b"
+          "Value": "Kharasch 2011b",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3584707/"
+          "Value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3584707/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1A"
+          "Value": "Fig. 1A",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Alfentanil IV Grapefruit coadmin sequential"
+          "Value": "Alfentanil IV Grapefruit coadmin sequential",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 6.0
+          "Value": 6.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "1 mg"
+          "Value": "1 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 416.52
           },
           "Values": [
@@ -6873,14 +7420,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin sequential - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.0833,
@@ -6911,88 +7456,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 764.0
+          "Value": 764.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kharasch 2011b"
+          "Value": "Kharasch 2011b",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3584707/"
+          "Value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3584707/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1B"
+          "Value": "Fig. 1B",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Alfentanil IV Control simultaneous"
+          "Value": "Alfentanil IV Control simultaneous",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 6.0
+          "Value": 6.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "1 mg"
+          "Value": "1 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Kharasch 2011b - Alfentanil IV Control simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 416.52
           },
           "Values": [
@@ -7018,14 +7579,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Kharasch 2011b - Alfentanil IV Control simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           24.0833,
@@ -7052,88 +7611,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 765.0
+          "Value": 765.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kharasch 2011b"
+          "Value": "Kharasch 2011b",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3584707/"
+          "Value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3584707/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1B"
+          "Value": "Fig. 1B",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Alfentanil IV Grapefruit coadmin simultaneous"
+          "Value": "Alfentanil IV Grapefruit coadmin simultaneous",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 6.0
+          "Value": 6.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "IV"
+          "Value": "IV",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "1 mg"
+          "Value": "1 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 416.52
           },
           "Values": [
@@ -7160,14 +7735,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Kharasch 2011b - Alfentanil IV Grapefruit coadmin simultaneous - Alfentanil - IV - 1 mg - Plasma - agg. (n=6)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           24.0833,
@@ -7195,88 +7768,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 768.0
+          "Value": 768.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kharasch 2011b"
+          "Value": "Kharasch 2011b",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3584707/"
+          "Value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3584707/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 2A"
+          "Value": "Fig. 2A",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Alfentanil PO Control sequential"
+          "Value": "Alfentanil PO Control sequential",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 6.0
+          "Value": 6.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "4 mg"
+          "Value": "4 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "solution"
+          "Value": "solution",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Kharasch 2011b - Alfentanil PO Control sequential - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 416.52
           },
           "Values": [
@@ -7301,14 +7890,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Kharasch 2011b - Alfentanil PO Control sequential - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.166,
@@ -7334,75 +7921,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 769.0
+          "Value": 769.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kharasch 2011b"
+          "Value": "Kharasch 2011b",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3584707/"
+          "Value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3584707/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 2A"
+          "Value": "Fig. 2A",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Alfentanil PO Grapefruit coadmin sequential"
+          "Value": "Alfentanil PO Grapefruit coadmin sequential",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 6.0
+          "Value": 6.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "4 mg"
+          "Value": "4 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "solution"
+          "Value": "solution",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7412,13 +8017,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Kharasch 2011b - Alfentanil PO Grapefruit coadmin sequential - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 416.52
               },
               "Values": [
@@ -7441,13 +8044,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Kharasch 2011b - Alfentanil PO Grapefruit coadmin sequential - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 416.52
           },
           "Values": [
@@ -7472,14 +8073,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Kharasch 2011b - Alfentanil PO Grapefruit coadmin sequential - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.166,
@@ -7505,88 +8104,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 772.0
+          "Value": 772.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kharasch 2011b"
+          "Value": "Kharasch 2011b",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3584707/"
+          "Value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3584707/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 2B"
+          "Value": "Fig. 2B",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Alfentanil PO Control simultaneous"
+          "Value": "Alfentanil PO Control simultaneous",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 6.0
+          "Value": 6.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "4 mg"
+          "Value": "4 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "solution"
+          "Value": "solution",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Kharasch 2011b - Alfentanil PO Control simultaneous - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 416.52
           },
           "Values": [
@@ -7613,14 +8228,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Kharasch 2011b - Alfentanil PO Control simultaneous - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           21.1659985,
@@ -7648,75 +8261,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 773.0
+          "Value": 773.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Kharasch 2011b"
+          "Value": "Kharasch 2011b",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3584707/"
+          "Value": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3584707/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 2B"
+          "Value": "Fig. 2B",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Alfentanil PO Grapefruit coadmin simultaneous"
+          "Value": "Alfentanil PO Grapefruit coadmin simultaneous",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 6.0
+          "Value": 6.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "4 mg"
+          "Value": "4 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "solution"
+          "Value": "solution",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7726,13 +8357,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Kharasch 2011b - Alfentanil PO Grapefruit coadmin simultaneous - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 416.52
               },
               "Values": [
@@ -7756,13 +8385,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Kharasch 2011b - Alfentanil PO Grapefruit coadmin simultaneous - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 416.52
           },
           "Values": [
@@ -7788,14 +8415,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Kharasch 2011b - Alfentanil PO Grapefruit coadmin simultaneous - Alfentanil - PO - 4 mg - Plasma - agg. (n=6)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           21.25,
@@ -7821,32 +8446,34 @@
       "Name": "Kharasch2012_Alfentanil_alone_IV",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Projects\\BAY_1002670_Vilaprisan_PBPK_support_0216\\Models\\Efavirenz\\Data\\ChartScanner\\Kharasch 2012_Figure 1b\\Values.csv.Sheet1"
-        },
-        {
           "Name": "File",
-          "Value": "Values"
+          "Value": "Values",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Sheet1"
+          "Value": "Sheet1",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7856,14 +8483,11 @@
             {
               "Name": "Error(Arithm) Control ",
               "QuantityInfo": {
-                "Name": "Error(Arithm) Control ",
                 "Path": "Kharasch2012_Alfentanil_alone_IV|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Error(Arithm) Control "
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2019-01-08T16:51:21.275033+01:00",
-                "Source": "Values.Sheet1.Error(Arithm) Control [ng/mL]",
                 "MolWeight": 416.52
               },
               "Values": [
@@ -7889,14 +8513,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Control (Plasma conc) ",
             "Path": "Kharasch2012_Alfentanil_alone_IV|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Control (Plasma conc) "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-01-08T16:51:21.275033+01:00",
-            "Source": "Values.Sheet1.Control (Plasma conc) [ng/mL]",
             "MolWeight": 416.52
           },
           "Values": [
@@ -7924,15 +8545,12 @@
       "BaseGrid": {
         "Name": "Time (1)",
         "QuantityInfo": {
-          "Name": "Time (1)",
           "Path": "Kharasch2012_Alfentanil_alone_IV|Time (1)",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-01-08T16:51:21.275033+01:00",
-          "Source": "Values.Sheet1.Time [h](1)"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.04638793,
@@ -7960,32 +8578,34 @@
       "Name": "Kharasch2012_Alfentanil_alone_po",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Projects\\BAY_1002670_Vilaprisan_PBPK_support_0216\\Models\\Efavirenz\\Data\\ChartScanner\\Kharasch 2012_Figure 1a\\Values.csv.Sheet1"
-        },
-        {
           "Name": "File",
-          "Value": "Values"
+          "Value": "Values",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "Sheet1"
+          "Value": "Sheet1",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Alfentanil"
+          "Value": "Alfentanil",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7995,14 +8615,11 @@
             {
               "Name": "Error(Arithm) Control ",
               "QuantityInfo": {
-                "Name": "Error(Arithm) Control ",
                 "Path": "Kharasch2012_Alfentanil_alone_po|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Error(Arithm) Control "
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "2019-01-08T12:38:53.0462486+01:00",
-                "Source": "Values.Sheet1.Error(Arithm) Control [ng/mL]",
                 "MolWeight": 416.52
               },
               "Values": [
@@ -8029,14 +8646,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Control (Plasma conc) ",
             "Path": "Kharasch2012_Alfentanil_alone_po|ObservedData|Peripheral Venous Blood|Plasma|Alfentanil|Control (Plasma conc) "
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "2019-01-08T12:38:53.0462486+01:00",
-            "Source": "Values.Sheet1.Control (Plasma conc) [ng/mL]",
             "MolWeight": 416.52
           },
           "Values": [
@@ -8065,15 +8679,12 @@
       "BaseGrid": {
         "Name": "Time (1)",
         "QuantityInfo": {
-          "Name": "Time (1)",
           "Path": "Kharasch2012_Alfentanil_alone_po|Time (1)",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "2019-01-08T12:38:53.0462486+01:00",
-          "Source": "Values.Sheet1.Time [h](1)"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           0.07567506,
